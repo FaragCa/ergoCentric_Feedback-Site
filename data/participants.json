@@ -32,9 +32,15 @@
     ],
     "frontImage": "/images/alicia-front.jpeg",
     "sideImage": "/images/alicia-side.jpeg",
-    "originalCode": "EG-B2-L",
-    "aiCode": "EG-C3-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "anyut",
@@ -69,9 +75,15 @@
     ],
     "frontImage": "/images/anyut-front.jpeg",
     "sideImage": "/images/anyut-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-B1-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "arpan",
@@ -106,9 +118,15 @@
     ],
     "frontImage": "/images/arpan-front.jpeg",
     "sideImage": "/images/arpan-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-A1-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "baldev",
@@ -143,9 +161,15 @@
     ],
     "frontImage": "/images/baldev-front.jpeg",
     "sideImage": "/images/baldev-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-B2-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "bharat",
@@ -180,9 +204,15 @@
     ],
     "frontImage": "/images/bharat-front.jpeg",
     "sideImage": "/images/bharat-side.jpeg",
-    "originalCode": "EG-B2-L",
-    "aiCode": "EG-C1-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "darren",
@@ -217,9 +247,15 @@
     ],
     "frontImage": "/images/darren-front.jpeg",
     "sideImage": "/images/darren-side.jpeg",
-    "originalCode": "EG-D2-L",
-    "aiCode": "EG-B3-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMXLS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "edna",
@@ -254,9 +290,15 @@
     ],
     "frontImage": "/images/edna-front.jpeg",
     "sideImage": "/images/edna-side.jpeg",
-    "originalCode": "EG-B2-L",
-    "aiCode": "EG-B2-L",
-    "codesDiffer": false
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "ganpaul",
@@ -291,9 +333,15 @@
     ],
     "frontImage": "/images/ganpaul-front.jpeg",
     "sideImage": "/images/ganpaul-side.jpeg",
-    "originalCode": "EG-D2-L",
-    "aiCode": "EG-C2-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "hardeep",
@@ -328,9 +376,15 @@
     ],
     "frontImage": "/images/hardeep-front.jpeg",
     "sideImage": "/images/hardeep-side.jpeg",
-    "originalCode": "EG-B2-L",
-    "aiCode": "EG-B1-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "harsh",
@@ -365,9 +419,15 @@
     ],
     "frontImage": "/images/harsh-front.jpeg",
     "sideImage": "/images/harsh-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-C3-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "harshil",
@@ -402,9 +462,15 @@
     ],
     "frontImage": "/images/harshil-front.jpeg",
     "sideImage": "/images/harshil-side.jpeg",
-    "originalCode": "EG-D2-L",
-    "aiCode": "EG-B3-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "khushwant",
@@ -439,9 +505,15 @@
     ],
     "frontImage": "/images/khushwant-front.jpeg",
     "sideImage": "/images/khushwant-side.jpeg",
-    "originalCode": "EG-A2-L",
-    "aiCode": "EG-C2-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "mahir",
@@ -476,9 +548,15 @@
     ],
     "frontImage": "/images/mahir-front.jpeg",
     "sideImage": "/images/mahir-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-C2-L",
-    "codesDiffer": false
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "makesh",
@@ -513,9 +591,15 @@
     ],
     "frontImage": "/images/makesh-front.jpeg",
     "sideImage": "/images/makesh-side.jpeg",
-    "originalCode": "EG-B2-L",
-    "aiCode": "EG-C2-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "manjeet",
@@ -550,9 +634,15 @@
     ],
     "frontImage": "/images/manjeet-front.jpeg",
     "sideImage": "/images/manjeet-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-A2-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "micheal",
@@ -587,9 +677,15 @@
     ],
     "frontImage": "/images/micheal-front.jpeg",
     "sideImage": "/images/micheal-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-B2-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "moksh",
@@ -624,9 +720,15 @@
     ],
     "frontImage": null,
     "sideImage": null,
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-B2-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "monica",
@@ -661,9 +763,15 @@
     ],
     "frontImage": "/images/monica-front.jpeg",
     "sideImage": "/images/monica-side.jpeg",
-    "originalCode": "EG-B2-L",
-    "aiCode": "EG-B3-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMXLS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "nishit",
@@ -698,9 +806,15 @@
     ],
     "frontImage": "/images/nishit-front.jpeg",
     "sideImage": "/images/nishit-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-C2-L",
-    "codesDiffer": false
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "ravi",
@@ -735,9 +849,15 @@
     ],
     "frontImage": "/images/ravi-front.jpeg",
     "sideImage": "/images/ravi-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-B3-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMXLS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "kadeem",
@@ -772,9 +892,15 @@
     ],
     "frontImage": "/images/kadeem-front.jpeg",
     "sideImage": "/images/kadeem-side.jpeg",
-    "originalCode": "EG-D2-X",
-    "aiCode": "EG-D2-X",
-    "codesDiffer": false
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "350MT",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "sanjay",
@@ -809,9 +935,15 @@
     ],
     "frontImage": "/images/sanjay-front.jpeg",
     "sideImage": "/images/sanjay-side.jpeg",
-    "originalCode": "EG-D2-L",
-    "aiCode": "EG-A2-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "semina",
@@ -846,9 +978,15 @@
     ],
     "frontImage": "/images/semina-front.jpeg",
     "sideImage": "/images/semina-side.jpeg",
-    "originalCode": "EG-A2-L",
-    "aiCode": "EG-C2-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMSS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "sharon",
@@ -883,9 +1021,15 @@
     ],
     "frontImage": "/images/sharon-front.jpeg",
     "sideImage": "/images/sharon-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-A2-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "smar",
@@ -920,9 +1064,15 @@
     ],
     "frontImage": "/images/smar-front.jpeg",
     "sideImage": "/images/smar-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-C3-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "sunil",
@@ -957,9 +1107,15 @@
     ],
     "frontImage": "/images/sunil-front.jpeg",
     "sideImage": "/images/sunil-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-B3-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "suthadhran-karn",
@@ -994,9 +1150,15 @@
     ],
     "frontImage": "/images/suthadhran-karn-front.jpeg",
     "sideImage": "/images/suthadhran-karn-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-C3-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "tharshini",
@@ -1031,9 +1193,15 @@
     ],
     "frontImage": "/images/tharshini-front.jpeg",
     "sideImage": null,
-    "originalCode": "EG-A2-L",
-    "aiCode": "EG-C2-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "veronica",
@@ -1068,9 +1236,15 @@
     ],
     "frontImage": "/images/veronica-front.jpeg",
     "sideImage": "/images/veronica-side.jpeg",
-    "originalCode": "EG-D2-L",
-    "aiCode": "EG-D3-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMXLS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "vinit",
@@ -1105,9 +1279,15 @@
     ],
     "frontImage": "/images/vinit-front.jpeg",
     "sideImage": "/images/vinit-side.jpeg",
-    "originalCode": "EG-B2-L",
-    "aiCode": "EG-B2-L",
-    "codesDiffer": false
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "wade",
@@ -1142,9 +1322,15 @@
     ],
     "frontImage": "/images/wade-front.jpeg",
     "sideImage": "/images/wade-side.jpeg",
-    "originalCode": "EG-B2-L",
-    "aiCode": "EG-B2-L",
-    "codesDiffer": false
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "warren",
@@ -1179,9 +1365,15 @@
     ],
     "frontImage": "/images/warren-front.jpeg",
     "sideImage": "/images/warren-side.jpeg",
-    "originalCode": "EG-C2-X",
-    "aiCode": "EG-C2-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "wayne",
@@ -1216,9 +1408,15 @@
     ],
     "frontImage": "/images/wayne-front.jpeg",
     "sideImage": "/images/wayne-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-D3-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "zafar",
@@ -1253,9 +1451,15 @@
     ],
     "frontImage": "/images/zafar-front.jpeg",
     "sideImage": "/images/zafar-side.jpeg",
-    "originalCode": "EG-A2-L",
-    "aiCode": "EG-B2-L",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   },
   {
     "id": "zaldy",
@@ -1290,8 +1494,14 @@
     ],
     "frontImage": "/images/zaldy-front.jpeg",
     "sideImage": "/images/zaldy-side.jpeg",
-    "originalCode": "EG-C2-L",
-    "aiCode": "EG-C3-H",
-    "codesDiffer": true
+    "ai": {
+      "series": "t",
+      "color": "MB",
+      "model": "MESH",
+      "mechanism": "SG",
+      "seat": "TMBMXLS",
+      "airLumbar": "TALSC",
+      "arms": "TCL360"
+    }
   }
 ]

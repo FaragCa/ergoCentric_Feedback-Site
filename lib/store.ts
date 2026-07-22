@@ -2,10 +2,15 @@ import { Redis } from "@upstash/redis";
 import fs from "fs";
 import path from "path";
 
+export type Change = { component: string; from: string; to: string };
+
 export type Feedback = {
   participantId: string;
-  decision: "approved" | "disapproved";
-  reason: string;
+  status: "validated" | "edited";
+  finalCode: string;
+  finalSelections: Record<string, string>;
+  changes: Change[];
+  explanation: string;
   reviewerEmail: string;
   updatedAt: number;
 };

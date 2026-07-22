@@ -2,10 +2,12 @@
 
 A flashcard-style app where a subject-matter expert reviews AI ergonomic-chair
 recommendations. For each of the 35 participants the reviewer sees the front &
-side photos, the body measurements, and **two chair codes** — the *original* and
-the *AI recommended* — then **approves** or **disapproves** (with a one-line
-reason). Progress is saved and can be picked up again later; there is no password
-— the reviewer just types their email.
+side photos, the body measurements, and the **AI-recommended ErgoCentric product
+code broken into its parts** (Series, Color, Model, Mechanism, Seat, Air Lumbar,
+Arms). Each part is a dropdown of the real options, so the reviewer can **validate
+the code as-is or edit any part**; the app auto-detects what changed and asks for
+a one-line explanation of why. Progress is saved and can be picked up again later;
+there is no password — the reviewer just types their email.
 
 Because the feedback is stored in a shared database, **you can log in later with
 your own email on the same link and see everything the technician submitted**,
@@ -16,13 +18,15 @@ and export it all to CSV.
 ## How the reviewer uses it
 
 1. Open the link, type an email, click **Start reviewing**.
-2. For each person: look at the photos + measurements, compare **Original code**
-   vs **AI recommended** code.
-3. Click **Approve** or **Disapprove**. Disapprove requires a short reason.
-4. **Save & next** moves on. The numbered squares at the top jump to any card and
-   are colour-coded (green = approved, red = disapproved). You can go back and
-   edit any previous answer at any time.
-5. **Export CSV** downloads every decision + reason.
+2. For each person: look at the photos + measurements and the **AI recommended
+   code**. The same code appears as a set of dropdowns pre-set to the AI's choice.
+3. If it's right, just **Validate & next**. If not, change any dropdown(s) — the
+   code rebuilds live, the app lists exactly what you changed (e.g. *Mechanism:
+   SG → ST*), and you write a one-sentence **why**. Then **Save edit & next**.
+4. The numbered squares at the top jump to any card and are colour-coded
+   (green = validated, blue = edited). You can go back and change any answer.
+5. **Export CSV** downloads, per person: AI code, final code, validated/edited,
+   the list of changes, the explanation, reviewer email, and timestamp.
 
 ---
 
@@ -81,30 +85,46 @@ Locally, with no database configured, feedback is saved to a file at
 
 ---
 
-## About the chair codes  ⚠️ placeholder logic
+## About the product code
 
-The source Excel/photos contained **no chair codes**, so both codes are generated
-from the body measurements as sensible placeholders:
+The code follows the ErgoCentric scheme, e.g. `t-MBMESH-SG-TMBMSS-TALSC-TCL360`:
 
-- **Original code** — a coarse "legacy" rule using only height & weight.
-- **AI recommended code** — a detailed rule using the 6 measurements (hip width,
-  seat depth, shoulder width, weight).
+| Segment  | Component  | Example      |
+|----------|------------|--------------|
+| `t`      | Series     | tCentric     |
+| `MB`     | Color      | Midnight Black |
+| `MESH`   | Model      | Mesh         |
+| `SG`     | Mechanism  | Synchro Glide |
+| `TMBMSS` | Seat size  | Small mesh   |
+| `TALSC`  | Air Lumbar | Air Lumbar 2 (built-in, black) |
+| `TCL360` | Arms       | Height, lateral & swivel |
 
-Code format is `EG-<width A–D><depth 1–3>-<back L/H/X>`. The two rules disagree
-for 29 of 35 people, which gives the reviewer real decisions to make.
+The option lists for Mechanism, Seat, Air Lumbar and Arms are transcribed exactly
+from your diagram (see `lib/options.ts`) and are proper dropdowns.
 
-**To use your real codes:** edit `data/participants.json` — each person has an
-`"originalCode"` and `"aiCode"` field. Change the values, set `"codesDiffer"` to
-`true`/`false` accordingly, commit, and push; Vercel redeploys automatically.
+**The AI recommendation is placeholder logic** — the source data had no codes, so
+each person is seeded as a tCentric mesh chair with the **seat size derived from
+their measurements** (buttock-to-knee depth) and the mechanism nudged to Plus-Size
+Multi-Tilt for very heavy users; everything else matches the sample defaults. Edit
+the rules in `data/participants.json` (each person has an `"ai"` object) to change
+what the AI proposes.
+
+> **Series, Color and Model** had no option list in the diagram, so they are shown
+> as **editable text fields** seeded with the sample values (`t` / `MB` / `MESH`),
+> with the Series names offered as suggestions. Send me the real Color/Model codes
+> and Series-code list and they become fixed dropdowns like the rest. To wire this
+> yourself: add the options to `lib/options.ts` and move those keys out of
+> `FREE_TEXT`.
 
 ---
 
 ## Project layout
 
 ```
-app/page.tsx            Login + flashcard review UI
-app/api/feedback/route.ts   GET all feedback / POST one decision
+app/page.tsx            Login + code-builder review UI
+app/api/feedback/route.ts   GET all feedback / POST one validation-or-edit
+lib/options.ts          All product-code component options (from the diagram)
 lib/store.ts            Redis (shared) with local-file fallback
-data/participants.json  The 35 participants + measurements + codes
+data/participants.json  The 35 participants + measurements + AI selections
 public/images/          Resized front/side photos (~130 KB each)
 ```

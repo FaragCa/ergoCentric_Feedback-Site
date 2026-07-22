@@ -13,22 +13,27 @@ export async function GET() {
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
-  const { participantId, decision, reason, reviewerEmail } = body || {};
+  const {
+    participantId, status, finalCode, finalSelections, changes, explanation, reviewerEmail,
+  } = body || {};
 
   if (!participantId || !reviewerEmail) {
     return NextResponse.json({ error: "participantId and reviewerEmail are required" }, { status: 400 });
   }
-  if (decision !== "approved" && decision !== "disapproved") {
-    return NextResponse.json({ error: "decision must be approved or disapproved" }, { status: 400 });
+  if (status !== "validated" && status !== "edited") {
+    return NextResponse.json({ error: "status must be validated or edited" }, { status: 400 });
   }
-  if (decision === "disapproved" && !String(reason || "").trim()) {
-    return NextResponse.json({ error: "a reason is required when disapproving" }, { status: 400 });
+  if (status === "edited" && !String(explanation || "").trim()) {
+    return NextResponse.json({ error: "an explanation is required when you change the code" }, { status: 400 });
   }
 
   const fb: Feedback = {
     participantId,
-    decision,
-    reason: String(reason || "").trim(),
+    status,
+    finalCode: String(finalCode || ""),
+    finalSelections: finalSelections || {},
+    changes: Array.isArray(changes) ? changes : [],
+    explanation: String(explanation || "").trim(),
     reviewerEmail: String(reviewerEmail).trim().toLowerCase(),
     updatedAt: Date.now(),
   };
