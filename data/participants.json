@@ -1,0 +1,1297 @@
+[
+  {
+    "id": "alicia",
+    "name": "Alicia",
+    "height": "5'6\"",
+    "weight": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 17.75
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 6
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 13
+      }
+    ],
+    "frontImage": "/images/alicia-front.jpeg",
+    "sideImage": "/images/alicia-side.jpeg",
+    "originalCode": "EG-B2-L",
+    "aiCode": "EG-C3-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "anyut",
+    "name": "Anyut",
+    "height": "5'9\"",
+    "weight": "90 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 15.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 22
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 8
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 25
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 17
+      }
+    ],
+    "frontImage": "/images/anyut-front.jpeg",
+    "sideImage": "/images/anyut-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-B1-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "arpan",
+    "name": "Arpan",
+    "height": "5'10\"",
+    "weight": "68 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 15
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 21
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 22
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/arpan-front.jpeg",
+    "sideImage": "/images/arpan-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-A1-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "baldev",
+    "name": "Baldev",
+    "height": "5'8\"",
+    "weight": "80 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 17
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 21
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 23
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/baldev-front.jpeg",
+    "sideImage": "/images/baldev-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-B2-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "bharat",
+    "name": "Bharat",
+    "height": "5'6\"",
+    "weight": "72 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 15.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 19
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 17
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 21
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 15
+      }
+    ],
+    "frontImage": "/images/bharat-front.jpeg",
+    "sideImage": "/images/bharat-side.jpeg",
+    "originalCode": "EG-B2-L",
+    "aiCode": "EG-C1-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "darren",
+    "name": "Darren",
+    "height": "6'2\"",
+    "weight": "170 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 22
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 22
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 24
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 17
+      }
+    ],
+    "frontImage": "/images/darren-front.jpeg",
+    "sideImage": "/images/darren-side.jpeg",
+    "originalCode": "EG-D2-L",
+    "aiCode": "EG-B3-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "edna",
+    "name": "Edna",
+    "height": "5'4\"",
+    "weight": "115 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 16.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 14
+      }
+    ],
+    "frontImage": "/images/edna-front.jpeg",
+    "sideImage": "/images/edna-side.jpeg",
+    "originalCode": "EG-B2-L",
+    "aiCode": "EG-B2-L",
+    "codesDiffer": false
+  },
+  {
+    "id": "ganpaul",
+    "name": "Ganpaul",
+    "height": "6'1\"",
+    "weight": "159 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 21
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 22
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/ganpaul-front.jpeg",
+    "sideImage": "/images/ganpaul-side.jpeg",
+    "originalCode": "EG-D2-L",
+    "aiCode": "EG-C2-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "hardeep",
+    "name": "Hardeep",
+    "height": "5'7\"",
+    "weight": "80 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 15
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 21
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 6
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 19
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/hardeep-front.jpeg",
+    "sideImage": "/images/hardeep-side.jpeg",
+    "originalCode": "EG-B2-L",
+    "aiCode": "EG-B1-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "harsh",
+    "name": "Harsh",
+    "height": "5'11\"",
+    "weight": "88 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 19
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 21
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 6
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 22
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/harsh-front.jpeg",
+    "sideImage": "/images/harsh-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-C3-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "harshil",
+    "name": "Harshil",
+    "height": "6'2\"",
+    "weight": "83 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 8
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 22
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 25
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/harshil-front.jpeg",
+    "sideImage": "/images/harshil-side.jpeg",
+    "originalCode": "EG-D2-L",
+    "aiCode": "EG-B3-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "khushwant",
+    "name": "Khushwant",
+    "height": "5'3\"",
+    "weight": "170 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 16
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 6.5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 20
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/khushwant-front.jpeg",
+    "sideImage": "/images/khushwant-side.jpeg",
+    "originalCode": "EG-A2-L",
+    "aiCode": "EG-C2-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "mahir",
+    "name": "Mahir",
+    "height": "5'9\"",
+    "weight": "85 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 16
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 9
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 16
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 23
+      }
+    ],
+    "frontImage": "/images/mahir-front.jpeg",
+    "sideImage": "/images/mahir-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-C2-L",
+    "codesDiffer": false
+  },
+  {
+    "id": "makesh",
+    "name": "Makesh",
+    "height": "5'6\"",
+    "weight": "82 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 16.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 19
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 21
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/makesh-front.jpeg",
+    "sideImage": "/images/makesh-side.jpeg",
+    "originalCode": "EG-B2-L",
+    "aiCode": "EG-C2-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "manjeet",
+    "name": "Manjeet",
+    "height": "5'9\"",
+    "weight": "76kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16.5
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": null
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 25
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/manjeet-front.jpeg",
+    "sideImage": "/images/manjeet-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-A2-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "micheal",
+    "name": "Micheal",
+    "height": "5'8\"",
+    "weight": "172 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 20
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 15
+      }
+    ],
+    "frontImage": "/images/micheal-front.jpeg",
+    "sideImage": "/images/micheal-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-B2-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "moksh",
+    "name": "Moksh",
+    "height": "5'8\"",
+    "weight": "80 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 23
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 15.5
+      }
+    ],
+    "frontImage": null,
+    "sideImage": null,
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-B2-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "monica",
+    "name": "Monica",
+    "height": "5'6\"",
+    "weight": "85 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 6
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 22
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 14
+      }
+    ],
+    "frontImage": "/images/monica-front.jpeg",
+    "sideImage": "/images/monica-side.jpeg",
+    "originalCode": "EG-B2-L",
+    "aiCode": "EG-B3-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "nishit",
+    "name": "Nishit",
+    "height": "5'11\"",
+    "weight": "80 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 16.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 19
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 22
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 22
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 14
+      }
+    ],
+    "frontImage": "/images/nishit-front.jpeg",
+    "sideImage": "/images/nishit-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-C2-L",
+    "codesDiffer": false
+  },
+  {
+    "id": "ravi",
+    "name": "Ravi",
+    "height": "5'11\"",
+    "weight": "68 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 21
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 24
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/ravi-front.jpeg",
+    "sideImage": "/images/ravi-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-B3-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "kadeem",
+    "name": "Kadeem",
+    "height": "6'3\"",
+    "weight": "284lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 22
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 22.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 23
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/kadeem-front.jpeg",
+    "sideImage": "/images/kadeem-side.jpeg",
+    "originalCode": "EG-D2-X",
+    "aiCode": "EG-D2-X",
+    "codesDiffer": false
+  },
+  {
+    "id": "sanjay",
+    "name": "Sanjay",
+    "height": "6'2\"",
+    "weight": "185 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 16
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 22.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 6
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 23.5
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 17
+      }
+    ],
+    "frontImage": "/images/sanjay-front.jpeg",
+    "sideImage": "/images/sanjay-side.jpeg",
+    "originalCode": "EG-D2-L",
+    "aiCode": "EG-A2-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "semina",
+    "name": "Semina",
+    "height": "5'3\"",
+    "weight": "144 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 16
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 6
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 19
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 13.5
+      }
+    ],
+    "frontImage": "/images/semina-front.jpeg",
+    "sideImage": "/images/semina-side.jpeg",
+    "originalCode": "EG-A2-L",
+    "aiCode": "EG-C2-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "sharon",
+    "name": "Sharon",
+    "height": null,
+    "weight": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 19
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 13
+      }
+    ],
+    "frontImage": "/images/sharon-front.jpeg",
+    "sideImage": "/images/sharon-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-A2-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "smar",
+    "name": "Smar",
+    "height": "5'9\"",
+    "weight": "68 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 19
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 21
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 23
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 15.5
+      }
+    ],
+    "frontImage": "/images/smar-front.jpeg",
+    "sideImage": "/images/smar-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-C3-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "sunil",
+    "name": "Sunil",
+    "height": "5'11\"",
+    "weight": "68 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 21
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 6
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 24
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/sunil-front.jpeg",
+    "sideImage": "/images/sunil-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-B3-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "suthadhran-karn",
+    "name": "Suthadhran Karn",
+    "height": "5'8\"",
+    "weight": "74 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 19
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 22
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/suthadhran-karn-front.jpeg",
+    "sideImage": "/images/suthadhran-karn-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-C3-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "tharshini",
+    "name": "Tharshini",
+    "height": "5'2\"",
+    "weight": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 19
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 4
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 19
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 15
+      }
+    ],
+    "frontImage": "/images/tharshini-front.jpeg",
+    "sideImage": null,
+    "originalCode": "EG-A2-L",
+    "aiCode": "EG-C2-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "veronica",
+    "name": "Veronica",
+    "height": "6'3\"",
+    "weight": "190 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 22
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 23
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 22.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 4
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 23
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 17
+      }
+    ],
+    "frontImage": "/images/veronica-front.jpeg",
+    "sideImage": "/images/veronica-side.jpeg",
+    "originalCode": "EG-D2-L",
+    "aiCode": "EG-D3-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "vinit",
+    "name": "Vinit",
+    "height": "5'4\"",
+    "weight": "67 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 21
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 17
+      }
+    ],
+    "frontImage": "/images/vinit-front.jpeg",
+    "sideImage": "/images/vinit-side.jpeg",
+    "originalCode": "EG-B2-L",
+    "aiCode": "EG-B2-L",
+    "codesDiffer": false
+  },
+  {
+    "id": "wade",
+    "name": "Wade",
+    "height": "5'7\"",
+    "weight": "155 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 17
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 19
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 13.5
+      }
+    ],
+    "frontImage": "/images/wade-front.jpeg",
+    "sideImage": "/images/wade-side.jpeg",
+    "originalCode": "EG-B2-L",
+    "aiCode": "EG-B2-L",
+    "codesDiffer": false
+  },
+  {
+    "id": "warren",
+    "name": "Warren",
+    "height": "5'9\"",
+    "weight": "240 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 7
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 23
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 20
+      }
+    ],
+    "frontImage": "/images/warren-front.jpeg",
+    "sideImage": "/images/warren-side.jpeg",
+    "originalCode": "EG-C2-X",
+    "aiCode": "EG-C2-H",
+    "codesDiffer": true
+  },
+  {
+    "id": "wayne",
+    "name": "Wayne",
+    "height": "5'8\"",
+    "weight": "180 lbs",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 21
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 6
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 22
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 17
+      }
+    ],
+    "frontImage": "/images/wayne-front.jpeg",
+    "sideImage": "/images/wayne-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-D3-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "zafar",
+    "name": "Zafar",
+    "height": "5'2\"",
+    "weight": "57 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 17
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 4
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 17
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 15
+      }
+    ],
+    "frontImage": "/images/zafar-front.jpeg",
+    "sideImage": "/images/zafar-side.jpeg",
+    "originalCode": "EG-A2-L",
+    "aiCode": "EG-B2-L",
+    "codesDiffer": true
+  },
+  {
+    "id": "zaldy",
+    "name": "Zaldy",
+    "height": "5'8\"",
+    "weight": "78 kg",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "value": 5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 23
+      },
+      {
+        "label": "Shoulder to shoulder (2)",
+        "value": 16
+      }
+    ],
+    "frontImage": "/images/zaldy-front.jpeg",
+    "sideImage": "/images/zaldy-side.jpeg",
+    "originalCode": "EG-C2-L",
+    "aiCode": "EG-C3-H",
+    "codesDiffer": true
+  }
+]
