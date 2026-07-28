@@ -1,13 +1,16 @@
 # Chair Recommendation Review
 
 A flashcard-style app where a subject-matter expert reviews AI ergonomic-chair
-recommendations. For each of the 35 participants the reviewer sees the front &
-side photos, the body measurements, and the **AI-recommended ErgoCentric product
-code broken into its parts** (Series, Color, Model, Mechanism, Seat, Air Lumbar,
-Arms). Each part is a dropdown of the real options, so the reviewer can **validate
-the code as-is or edit any part**; the app auto-detects what changed and asks for
-a one-line explanation of why. Progress is saved and can be picked up again later;
-there is no password — the reviewer just types their email.
+recommendations. It is loaded with **50 real assessment entries** (from
+`50_sample_chair_codes`, cross-referenced by Entry Id with `final_1500_dataset_v2`).
+For each entry the reviewer sees the assessment **photos**, the person's **body
+measurements**, their **seating preferences**, **health conditions**, and their
+**complaint about their current chair** — plus the **AI-recommended ErgoCentric
+product code broken into its parts** (Series, Model, Mechanism, Seat, Air Lumbar,
+Arms, Gas lift, Caster). Each part is a dropdown of the real options, so the
+reviewer can **validate the code as-is or edit any part**; the app auto-detects
+what changed and asks for a one-line explanation of why. Progress is saved and can
+be picked up later; no password — the reviewer just types their email.
 
 Because the feedback is stored in a shared database, **you can log in later with
 your own email on the same link and see everything the technician submitted**,
@@ -18,8 +21,9 @@ and export it all to CSV.
 ## How the reviewer uses it
 
 1. Open the link, type an email, click **Start reviewing**.
-2. For each person: look at the photos + measurements and the **AI recommended
-   code**. The same code appears as a set of dropdowns pre-set to the AI's choice.
+2. For each entry: look at the photos, measurements, preferences, health
+   conditions and the person's complaint, and the **AI recommended code**. The
+   same code appears as a set of dropdowns pre-set to the AI's choice.
 3. If it's right, just **Validate & next**. If not, change any dropdown(s) — the
    code rebuilds live, the app lists exactly what you changed (e.g. *Mechanism:
    SG → ST*), and you write a one-sentence **why**. Then **Save edit & next**.
@@ -87,34 +91,39 @@ Locally, with no database configured, feedback is saved to a file at
 
 ## About the product code
 
-The code follows the ErgoCentric scheme, e.g. `t-MBMESH-SG-TMBMSS-TALSC-TCL360`:
+The **AI recommended code comes straight from your data** — the
+`ML Suggested Full Chair Code` column of `50_sample_chair_codes`. Each code is
+parsed into its parts, e.g. `T-MBMESH-SG-TMBMS-TALSC-TCL360-125MMLT-NC`:
 
-| Segment  | Component  | Example      |
-|----------|------------|--------------|
-| `t`      | Series     | tCentric     |
-| `MB`     | Color      | Midnight Black |
-| `MESH`   | Model      | Mesh         |
-| `SG`     | Mechanism  | Synchro Glide |
-| `TMBMSS` | Seat size  | Small mesh   |
-| `TALSC`  | Air Lumbar | Air Lumbar 2 (built-in, black) |
-| `TCL360` | Arms       | Height, lateral & swivel |
+| Segment    | Component     | Example                          |
+|------------|---------------|----------------------------------|
+| `T`        | Series        | tCentric                         |
+| `MBMESH`   | Model/finish  | Mesh, Midnight Black (omitted for foam) |
+| `SG`       | Mechanism     | Synchro Glide                    |
+| `TMBMS`    | Seat size     | Large mesh                       |
+| `TALSC`    | Air Lumbar    | Air Lumbar 2 (built-in, black)   |
+| `TCL360`   | Arms          | Height, lateral & swivel         |
+| `125MMLT`  | Gas lift      | 125 mmLT pneumatic               |
+| `NC`       | Caster        | Dual wheel nylon                 |
 
-The option lists for Mechanism, Seat, Air Lumbar and Arms are transcribed exactly
-from your diagram (see `lib/options.ts`) and are proper dropdowns.
+All option lists (Mechanism, Seat, Air Lumbar, Arms, Gas lift, Caster/Glide) are
+transcribed from your diagram — see `lib/options.ts`. All 50 codes re-build back
+to their exact original string. **Series** is an editable field (seeded `T`/`AIR2`)
+because the diagram gave no series-code list; the **Model** segment is a dropdown
+(foam = no code, or `MBMESH`). Send the real series / model / colour code lists and
+they become fixed dropdowns too.
 
-**The AI recommendation is placeholder logic** — the source data had no codes, so
-each person is seeded as a tCentric mesh chair with the **seat size derived from
-their measurements** (buttock-to-knee depth) and the mechanism nudged to Plus-Size
-Multi-Tilt for very heavy users; everything else matches the sample defaults. Edit
-the rules in `data/participants.json` (each person has an `"ai"` object) to change
-what the AI proposes.
+## Data & a caveat on photos
 
-> **Series, Color and Model** had no option list in the diagram, so they are shown
-> as **editable text fields** seeded with the sample values (`t` / `MB` / `MESH`),
-> with the Series names offered as suggestions. Send me the real Color/Model codes
-> and Series-code list and they become fixed dropdowns like the rest. To wire this
-> yourself: add the options to `lib/options.ts` and move those keys out of
-> `FREE_TEXT`.
+`data/participants.json` holds the 50 entries: measurements, preferences, health
+conditions, the current-chair complaint, image paths, and the parsed AI code.
+
+**Only 24 of the 50 entries have photos.** The source dataset's image links were
+either **truncated** (e.g. `…/2021/12/1`) or **already deleted** from ergocentric.com
+(older uploads return 404). The 24 recoverable photos were downloaded, resized, and
+self-hosted in `public/images/`. Entries with no photo show a clean placeholder and
+are still fully reviewable. If you have those images elsewhere, drop them in
+`public/images/` as `e<EntryId>-1.jpeg` (and `-2`, `-3`) and they'll appear.
 
 ---
 

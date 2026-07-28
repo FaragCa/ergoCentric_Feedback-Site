@@ -1,611 +1,1045 @@
 [
   {
-    "id": "alicia",
-    "name": "Alicia",
-    "height": "5'6\"",
-    "weight": null,
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 18
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 20
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 17.75
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 6
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 18
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 13
-      }
-    ],
-    "frontImage": "/images/alicia-front.jpeg",
-    "sideImage": "/images/alicia-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "anyut",
-    "name": "Anyut",
-    "height": "5'9\"",
-    "weight": "90 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 15.5
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 18
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 22
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 8
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 25
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 17
-      }
-    ],
-    "frontImage": "/images/anyut-front.jpeg",
-    "sideImage": "/images/anyut-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "arpan",
-    "name": "Arpan",
+    "id": "e87606",
+    "entryId": 87606,
+    "name": "Entry #87606",
     "height": "5'10\"",
-    "weight": "68 kg",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": "91 cm",
+      "workSurfaceAdjust": "a"
+    },
+    "conditions": [
+      "Coccydynia (tailbone pain)"
+    ],
+    "complaint": "Despite my best efforts to stretch regularly, my main problem is tightness in the hips and groin. The mesh seat I've been using seems to contribute to the problem because it creates a hammock effect, which feels like it rolls my hips inward (clockwise on the left, counterclockwise on the right), so I can never get comfortable. I'm looking for a chair with a seat that provides firm support with adjustable positioning, both forward/backward and in angular tilt. Note that after visiting your store in Toronto my wife recently ordered a tCentric Hybrid, which I have found to be comfortable. Also note that my working surface is hydraulically adjustable in height: It can be set anywhere from lap height when I'm sitting to elbow height when I'm standing.",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 15
+        "value": 18.5
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 16
+        "value": 16.0
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 21
+        "value": 19.0
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 6.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 22.0
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 22
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
+        "value": 20.0
       }
     ],
-    "frontImage": "/images/arpan-front.jpeg",
-    "sideImage": "/images/arpan-side.jpeg",
+    "images": [
+      "/images/e87606-1.jpeg",
+      "/images/e87606-2.jpeg"
+    ],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
     }
   },
   {
-    "id": "baldev",
-    "name": "Baldev",
-    "height": "5'8\"",
-    "weight": "80 kg",
+    "id": "e87262",
+    "entryId": 87262,
+    "name": "Entry #87262",
+    "height": "5'4\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Scoliosis"
+    ],
+    "complaint": "arm rests are too high, back has to neck and head support, poor lumbar support.",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 17
+        "value": 18.0
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 17
+        "value": 14.0
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 21
+        "value": 18.0
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 5
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 6.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 18.5
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 23
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
+        "value": 14.5
       }
     ],
-    "frontImage": "/images/baldev-front.jpeg",
-    "sideImage": "/images/baldev-side.jpeg",
+    "images": [
+      "/images/e87262-1.jpeg",
+      "/images/e87262-2.jpeg"
+    ],
+    "mlCode": "T-SG-LS-AT-TCL360-125MMLT-NC",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "AT",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e87081",
+    "entryId": 87081,
+    "name": "Entry #87081",
+    "height": "5'9\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Mesh seat",
+      "recline": "Yes",
+      "flooring": "Carpet",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain"
+    ],
+    "complaint": "Stiff, no back support, armrests are too far away from body.",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 17.5
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 24.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 19.0
+      }
+    ],
+    "images": [
+      "/images/e87081-1.jpeg",
+      "/images/e87081-2.jpeg"
+    ],
+    "mlCode": "T-MBMESH-SG-TMBMS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "MBMESH",
       "mechanism": "SG",
       "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
     }
   },
   {
-    "id": "bharat",
-    "name": "Bharat",
-    "height": "5'6\"",
-    "weight": "72 kg",
+    "id": "e86963",
+    "entryId": 86963,
+    "name": "Entry #86963",
+    "height": "5'2\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Arthritis",
+      "Lower back pain",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "The current on is too big for me. The height, depth and width are all too big.",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 15.5
+        "value": 17.3
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 19
+        "value": 15.7
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 17
+        "value": 15.0
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.7
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 22.8
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 21
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 15
+        "value": 16.5
       }
     ],
-    "frontImage": "/images/bharat-front.jpeg",
-    "sideImage": "/images/bharat-side.jpeg",
+    "images": [
+      "/images/e86963-1.jpeg",
+      "/images/e86963-2.jpeg"
+    ],
+    "mlCode": "AIR2-SG-SS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "AIR2",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "SS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
     }
   },
   {
-    "id": "darren",
-    "name": "Darren",
-    "height": "6'2\"",
-    "weight": "170 lbs",
+    "id": "e86927",
+    "entryId": 86927,
+    "name": "Entry #86927",
+    "height": "5'3\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "I dislike how hard it feels and how it does not support my back very much. I tend to hunch forward and feel a lot of pressure on my butt.",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 22
+        "value": 18.0
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 18
+        "value": 15.0
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 22
+        "value": 16.0
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 5
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 20.0
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 24
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 17
+        "value": 14.0
       }
     ],
-    "frontImage": "/images/darren-front.jpeg",
-    "sideImage": "/images/darren-side.jpeg",
+    "images": [
+      "/images/e86927-1.jpeg",
+      "/images/e86927-2.jpeg"
+    ],
+    "mlCode": "T-SG-SS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMXLS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "SS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
     }
   },
   {
-    "id": "edna",
-    "name": "Edna",
-    "height": "5'4\"",
-    "weight": "115 lbs",
+    "id": "e86923",
+    "entryId": 86923,
+    "name": "Entry #86923",
+    "height": "5'7\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Herniated disc (aka slipped disc)"
+    ],
+    "complaint": "lumbar support",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
+        "value": 19.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 17.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 23.5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 22.0
+      }
+    ],
+    "images": [
+      "/images/e86923-1.jpeg",
+      "/images/e86923-2.jpeg"
+    ],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e86761",
+    "entryId": 86761,
+    "name": "Entry #86761",
+    "height": "5'5\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain"
+    ],
+    "complaint": "It doesn't have good enough back support but the size and height is perfect.",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 15.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 19.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 16.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 28.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18.0
+      }
+    ],
+    "images": [
+      "/images/e86761-1.jpeg",
+      "/images/e86761-2.jpeg"
+    ],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e86701",
+    "entryId": 86701,
+    "name": "Entry #86701",
+    "height": "5'8\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Sciatica"
+    ],
+    "complaint": "There is no lumbar support whatsoever. All of my back issues occur in my lower back area, accompanied by sciatic nerve pain that affects my left side and left leg.",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 23.2
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16.9
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20.1
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 7.9
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 21.3
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 16.1
+      }
+    ],
+    "images": [
+      "/images/e86701-1.jpeg",
+      "/images/e86701-2.jpeg"
+    ],
+    "mlCode": "AIR2-SG-XLS-AL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "AIR2",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "XLS",
+      "lumbar": "AL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e86665",
+    "entryId": 86665,
+    "name": "Entry #86665",
+    "height": "5'5\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "Yes",
+      "flooring": "Carpet",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Fibromyalgia",
+      "Lower back pain",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "I have SI joint pain and can't sit in this chair (steelcase chair standard at my employer) for more than 15 minutes without pain. Reclining and an angled seat cushion help but this chair only has spring type reclining so I can't rest in a reclined position. 90 (or smaller) degree hip bend is very uncomfortable for more than a few minutes. I also have neck pain and this chair has no headrest. Previously I often felt like I needed to sit with one leg tucked under me or with my knees up against my desk in this chair due to general discomfort and feeling unsupported/slumpy.",
+    "otherNote": "bilateral SI joint pain, bilateral neck/shoulder spasm",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
         "value": 16.5
       },
       {
-        "label": "Seated hip width (at widest point)",
-        "value": 18
-      },
-      {
         "label": "Back of knee joint to floor",
-        "value": 18.5
+        "value": 17.0
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 12.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 12.0
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 18
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 14
+        "value": 17.0
       }
     ],
-    "frontImage": "/images/edna-front.jpeg",
-    "sideImage": "/images/edna-side.jpeg",
+    "images": [
+      "/images/e86665-1.jpeg",
+      "/images/e86665-2.jpeg",
+      "/images/e86665-3.jpeg"
+    ],
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
     }
   },
   {
-    "id": "ganpaul",
-    "name": "Ganpaul",
-    "height": "6'1\"",
-    "weight": "159 lbs",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 17
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 20
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 21
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 22
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
-      }
-    ],
-    "frontImage": "/images/ganpaul-front.jpeg",
-    "sideImage": "/images/ganpaul-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "hardeep",
-    "name": "Hardeep",
-    "height": "5'7\"",
-    "weight": "80 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 15
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 18
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 21
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 6
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 19
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
-      }
-    ],
-    "frontImage": "/images/hardeep-front.jpeg",
-    "sideImage": "/images/hardeep-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "harsh",
-    "name": "Harsh",
-    "height": "5'11\"",
-    "weight": "88 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 18.5
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 19
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 21
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 6
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 22
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
-      }
-    ],
-    "frontImage": "/images/harsh-front.jpeg",
-    "sideImage": "/images/harsh-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "harshil",
-    "name": "Harshil",
-    "height": "6'2\"",
-    "weight": "83 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 18
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 18
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 8
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 22
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 25
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
-      }
-    ],
-    "frontImage": "/images/harshil-front.jpeg",
-    "sideImage": "/images/harshil-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "khushwant",
-    "name": "Khushwant",
-    "height": "5'3\"",
-    "weight": "170 lbs",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 16
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 20
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 18
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 6.5
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 20
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
-      }
-    ],
-    "frontImage": "/images/khushwant-front.jpeg",
-    "sideImage": "/images/khushwant-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "mahir",
-    "name": "Mahir",
+    "id": "e86278",
+    "entryId": 86278,
+    "name": "Entry #86278",
     "height": "5'9\"",
-    "weight": "85 kg",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "Chair back is broken and the seat pan is too long",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 16
+        "value": 18.5
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 20
+        "value": 18.5
       },
       {
         "label": "Back of knee joint to floor",
+        "value": 15.9
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.3
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 22.2
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 20.1
+      }
+    ],
+    "images": [
+      "/images/e86278-1.jpeg",
+      "/images/e86278-2.jpeg"
+    ],
+    "mlCode": "AIR2-SG-LS-TLSAL-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "AIR2",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e67237",
+    "entryId": 67237,
+    "name": "Entry #67237",
+    "height": "5'10\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "74 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": null,
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 20.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 10.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 23.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 19.0
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e72669",
+    "entryId": 72669,
+    "name": "Entry #72669",
+    "height": "5'3\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "78 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Carpal tunnel",
+      "Lower back pain",
+      "Petite",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": null,
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 16.9
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16.9
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 16.1
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 12.2
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 22.4
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 16.9
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-SS-TLSAL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "SS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e83586",
+    "entryId": 83586,
+    "name": "Entry #83586",
+    "height": "5'5\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": "72 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "The worker's current chair has long armrests, which she likes.  The worker has pain when the arm is resting at her side (unsupported).  We're trying to find a chair that has highly adjustable armrests (that reach a height of 9.5 inches) to full support the worker's upper extremities.  Any help is greatl appreciated.",
+    "otherNote": "Possible Thoracic Outlet Syndrome",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 16.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 21.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": null
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e80700",
+    "entryId": 80700,
+    "name": "Entry #80700",
+    "height": "5'9\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "No preference",
+      "recline": "Yes",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": "74 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Carpal tunnel",
+      "Lower back pain"
+    ],
+    "complaint": "Likes: Lasted as long as it did._x000D_\nDislikes: _x000D_\n   -Race car chair._x000D_\n   -Does not go higher than 20-21inches_x000D_\n   -Squeaky wheels/loud when moving after a while._x000D_\n   -Not as comfortable as it looks because: race car chair._x000D_\n   -No lumbar support",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 23.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 12.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 20.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18.0
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-XLS-TALSC-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "XLS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e77636",
+    "entryId": 77636,
+    "name": "Entry #77636",
+    "height": "6'0\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Mesh seat",
+      "recline": "No",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": "74 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "I like that the back rest can pivot to allow me to recline. I don't like that the reclining function doesn't resist my weight or movement, it only locks into place as I flip the levers. I like that I was able to remove the arm rests at my leisure. I don't like that the cushions are made out of leather/pleather, I would rather them be mesh. I don't like that the back rest does not support all of my back, it is too short. I don't like that it lacks a headrest, or that the back rest doesn't have the capability to support my head. I like that it has wheels to roll around on.",
+    "otherNote": "I'm not diagnosed with carpal tunnel, however I am concerned about developing it as I age since I have nerve sensitivities in my arms/wrists already.",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
         "value": 20.5
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 9
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 16
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 23
-      }
-    ],
-    "frontImage": "/images/mahir-front.jpeg",
-    "sideImage": "/images/mahir-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "makesh",
-    "name": "Makesh",
-    "height": "5'6\"",
-    "weight": "82 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 16.5
-      },
-      {
         "label": "Seated hip width (at widest point)",
-        "value": 19
+        "value": 16.1
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 19
+        "value": 18.5
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.1
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 22.8
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 21
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
+        "value": 17.3
       }
     ],
-    "frontImage": "/images/makesh-front.jpeg",
-    "sideImage": "/images/makesh-side.jpeg",
+    "images": [
+      "/images/e77636-1.jpeg",
+      "/images/e77636-2.jpeg"
+    ],
+    "mlCode": "T-MBMESH-SG-TMBMS-AT-TCL360-125MMLT-UC2",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "MBMESH",
       "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "TMBMS",
+      "lumbar": "AT",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
     }
   },
   {
-    "id": "manjeet",
-    "name": "Manjeet",
-    "height": "5'9\"",
-    "weight": "76kg",
+    "id": "e83098",
+    "entryId": 83098,
+    "name": "Entry #83098",
+    "height": "5'2\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": null,
+      "flooring": "Hardwood",
+      "workSurfaceHeight": "67 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Scoliosis"
+    ],
+    "complaint": "Things I do not like:  Mesh, I feel like my thighs roll inward because mesh does not support, my back does not touch the back of the chair.  I sit forward because the hump of the chair fits better that way as it slopes down away from the back of the knees.  The side arm rests are either to high or two low in between settings - so do not have the right arm rest hight.  My thighs and butt (although naturally \"cushioned\") need comfort and cushioning as to improve circulation.  My heels lift if I sit back, but if I adjust the seat lower, it is too low and so I sit on edge of chair. _x000D_\n_x000D_\nThings I like:  It does not roll around the floor easily so I am not slipping away from the desk, when I shift my body.  But, I can still push off and swivel.  I like that I can wipe the surface down with hydrogen peroxide as it is a high touch area.  _x000D_\n_x000D_\nI would love maybe cushion on my feet to elevate but not sure I need it.  Sometimes I lift my legs up off the floor to take pressure off.   I work long hours on computer.  _x000D_\nI am sensitive to polyurethane materials so if it has polyurethane we need to make sure it has off-gassed._x000D_\n_x000D_\nI do not recline on my chair, but I would LOVE to be able to sit in a chair where I can actually sit and my lower back be supported.  Most of the time I just force myself to have good posture by sitting straight but would like to be able to just sit straight in the chair itself.  Because of scoliosis I tend to naturally want to sit straight up.  I normally sit also with one leg crossed behind one of the ankles as it takes pressure of my back.  I like that it supports enough to keep pelvis straight.",
+    "otherNote": "I do not have pain in any area although I have scoliosis",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 20.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 20.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 16.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 21.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 16.0
+      }
+    ],
+    "images": [],
+    "mlCode": "AIR2-MT-LS-AL-TCL360-140MM-UC2",
+    "ai": {
+      "series": "AIR2",
+      "model": "",
+      "mechanism": "MT",
+      "seat": "LS",
+      "lumbar": "AL",
+      "arms": "TCL360",
+      "lift": "140MM",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e75979",
+    "entryId": 75979,
+    "name": "Entry #75979",
+    "height": "6'2\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": "74 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "Arm rest do not go low enough and hit the apron my workspace.",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 23.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 22.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 15.5
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-XLS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "XLS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e77696",
+    "entryId": 77696,
+    "name": "Entry #77696",
+    "height": "5'7\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": "69 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "Like: Mesh Back_x000D_\n_x000D_\nDislike: The top bar hits my shoulders and curves forward, pushing my shoulders forward. _x000D_\nThe arms are too wide",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
@@ -613,895 +1047,1948 @@
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 16.5
+        "value": 15.5
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 20
+        "value": 16.8
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.2
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 24.5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 16.0
+      }
+    ],
+    "images": [
+      "/images/e77696-1.jpeg",
+      "/images/e77696-2.jpeg"
+    ],
+    "mlCode": "T-SG-LS-AT-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "AT",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e73494",
+    "entryId": 73494,
+    "name": "Entry #73494",
+    "height": "5'8\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "Yes",
+      "flooring": null,
+      "workSurfaceHeight": "74 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": null,
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 10.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 23.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 17.0
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e80381",
+    "entryId": 80381,
+    "name": "Entry #80381",
+    "height": "5'9\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": "71 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "I feel like my low back is heavily pushed forward, but my upper back is leaning way back._x000D_\nI feel like my back is being kind of folded backwards. I have an L5/S1 fusion, so my low back_x000D_\nis already rigid and pushed forward. I feel like I need a space at the bottom of my back rest where_x000D_\nmy low back can settle in, while my upper back keeps the forward support.",
+    "otherNote": "L5/S1 Disc replacement and fusion",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 23.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 23.0
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e81315",
+    "entryId": 81315,
+    "name": "Entry #81315",
+    "height": null,
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": "79 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Petite",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": null,
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 12.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 13.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 20.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 16.0
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e76327",
+    "entryId": 76327,
+    "name": "Entry #76327",
+    "height": "5'6\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Mesh seat",
+      "recline": "No",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": "74 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": null,
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 14.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 7.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 21.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18.0
+      }
+    ],
+    "images": [
+      "/images/e76327-1.jpeg",
+      "/images/e76327-2.jpeg"
+    ],
+    "mlCode": "T-MBMESH-SG-TMBMS-TALSC-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "T",
+      "model": "MBMESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e76187",
+    "entryId": 76187,
+    "name": "Entry #76187",
+    "height": "5'9\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": "Carpet",
+      "workSurfaceHeight": "72 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "IKEA Markus - Hard seat, seat back doesn't match my back curve, poor lumbar support that's not adjustable",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 21.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 15.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 24.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 17.5
+      }
+    ],
+    "images": [
+      "/images/e76187-1.jpeg",
+      "/images/e76187-2.jpeg"
+    ],
+    "mlCode": "T-SG-XLS-TLSAL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "XLS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e76454",
+    "entryId": 76454,
+    "name": "Entry #76454",
+    "height": "5'5\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Mesh seat",
+      "recline": "Yes",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Arthritis",
+      "Fibromyalgia",
+      "Lower back pain",
+      "Petite",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "Here are the specs from  my ergonomics expert.  Current chairs are much too large, push my head forward and the lumbar support is in the wrong place..  I have an OK chair but can't tolerate the cushion, I need a firmer surface for my hips.",
+    "otherNote": "TMJ  and cervical spine arthritis",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 15.2
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 17.8
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 20.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 6.8
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 18.5
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 19.5
+      }
+    ],
+    "images": [],
+    "mlCode": "T-MBMESH-SG-TMBMS-TLSAL-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "T",
+      "model": "MBMESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e66307",
+    "entryId": 66307,
+    "name": "Entry #66307",
+    "height": "5'4\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "Yes",
+      "flooring": null,
+      "workSurfaceHeight": "69 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Shoulder Injury/Pain",
+      "Whiplash"
+    ],
+    "complaint": "No current chair that fits",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 14.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 16.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": null
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 13.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 17.5
+      }
+    ],
+    "images": [
+      "/images/e66307-1.jpeg",
+      "/images/e66307-2.jpeg"
+    ],
+    "mlCode": "AIR2-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "AIR2",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e71513",
+    "entryId": 71513,
+    "name": "Entry #71513",
+    "height": "5'4\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Arthritis",
+      "Carpal tunnel",
+      "Herniated disc (aka slipped disc)",
+      "Lower back pain",
+      "Petite",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": null,
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17.3
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16.1
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 16.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 11.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 22.4
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18.1
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e81644",
+    "entryId": 81644,
+    "name": "Entry #81644",
+    "height": "5'10\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": "Tile",
+      "workSurfaceHeight": "65 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "My current chair is terrible.  It is too short and won't hold it's height.  The recline options are broken.  Back support ends below shoulder blades.  I am honestly unsure there's anything redeeming about it.",
+    "otherNote": "Can't tell if this assessment is free or charged- if charged, please do not proceed.  Am purchasing t-centric hybrid through my institution, hoping assessment will give advice on seat pan depth etc.",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 20.5
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 17.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 7.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 21.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 16.0
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-LS-AT-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "AT",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e69659",
+    "entryId": 69659,
+    "name": "Entry #69659",
+    "height": "5'9\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "76 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "Not an ergonomic chair.",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 23.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 8.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 23.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 16.0
+      }
+    ],
+    "images": [
+      "/images/e69659-1.jpeg",
+      "/images/e69659-2.jpeg"
+    ],
+    "mlCode": "T-SG-XLS-TALSC-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "XLS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e66879",
+    "entryId": 66879,
+    "name": "Entry #66879",
+    "height": "5'6\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": null,
+      "recline": null,
+      "flooring": null,
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain"
+    ],
+    "complaint": "I currently work with the RCMP but Im working from home and I am looking for a home chair that I may also purchase for work when we return fulltime. I find I perch on this current chair as I cant seem to sit back enough and still reach the keyboard. I like a firm lumbar support and arm rests that I can move out of the way.",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 15.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 7.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 19.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 17.0
+      }
+    ],
+    "images": [
+      "/images/e66879-1.jpeg",
+      "/images/e66879-2.jpeg"
+    ],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e64651",
+    "entryId": 64651,
+    "name": "Entry #64651",
+    "height": "5'7\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "64 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Carpal tunnel"
+    ],
+    "complaint": "Mesh back and seat cushion not comfortable for sitting 8 hours a day.",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 17.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 15.5
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 5.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 23.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18.0
+      }
+    ],
+    "images": [],
+    "mlCode": "AIR2-SG-LS-AL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "AIR2",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "AL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e81237",
+    "entryId": 81237,
+    "name": "Entry #81237",
+    "height": "6'4\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": null,
+      "flooring": "Carpet",
+      "workSurfaceHeight": "76 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": null,
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": null
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": null
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": null
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": null
+      },
+      {
+        "label": "Seat surface to shoulder",
         "value": null
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 25
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
+        "value": null
       }
     ],
-    "frontImage": "/images/manjeet-front.jpeg",
-    "sideImage": "/images/manjeet-side.jpeg",
+    "images": [],
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
     }
   },
   {
-    "id": "micheal",
-    "name": "Micheal",
-    "height": "5'8\"",
-    "weight": "172 lbs",
+    "id": "e70176",
+    "entryId": 70176,
+    "name": "Entry #70176",
+    "height": "5'4\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "Yes",
+      "flooring": null,
+      "workSurfaceHeight": "71 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": null,
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 17
+        "value": 21.0
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 18
+        "value": 17.0
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 20
+        "value": 17.0
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 5
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 4.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 24.0
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 20
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 15
+        "value": 15.0
       }
     ],
-    "frontImage": "/images/micheal-front.jpeg",
-    "sideImage": "/images/micheal-side.jpeg",
+    "images": [],
+    "mlCode": "T-SG-XLS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "XLS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
     }
   },
   {
-    "id": "moksh",
-    "name": "Moksh",
-    "height": "5'8\"",
-    "weight": "80 kg",
+    "id": "e67182",
+    "entryId": 67182,
+    "name": "Entry #67182",
+    "height": "4'11\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "70 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Petite",
+      "Sciatica"
+    ],
+    "complaint": "I get pain in my lower back. It is too big and uncomfortable when sitting for too long. I need a chair to work with desktops of different heights (from 25 to 30 inches)",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 17
+        "value": 19.0
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 18
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 19
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 23
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
         "value": 15.5
-      }
-    ],
-    "frontImage": null,
-    "sideImage": null,
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "monica",
-    "name": "Monica",
-    "height": "5'6\"",
-    "weight": "85 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 19
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 18
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 20
+        "value": 16.0
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 6
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 20.0
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 22
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 14
+        "value": 16.0
       }
     ],
-    "frontImage": "/images/monica-front.jpeg",
-    "sideImage": "/images/monica-side.jpeg",
+    "images": [],
+    "mlCode": "AIR2-SG-SS-AL-TCL360-125MMLT-NC",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "AIR2",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMXLS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "SS",
+      "lumbar": "AL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
     }
   },
   {
-    "id": "nishit",
-    "name": "Nishit",
-    "height": "5'11\"",
-    "weight": "80 kg",
+    "id": "e77895",
+    "entryId": 77895,
+    "name": "Entry #77895",
+    "height": "5'9\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "Yes",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": "72 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Coccydynia (tailbone pain)",
+      "Lower back pain",
+      "Sciatica",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "It does not feel well on my rear (my tailbone). I would also like a head rest.",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
+        "value": 21.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 23.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 17.0
+      }
+    ],
+    "images": [],
+    "mlCode": "AIR2-SG-XLS-TLSAL-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "AIR2",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "XLS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e71039",
+    "entryId": 71039,
+    "name": "Entry #71039",
+    "height": "5'4\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Herniated disc (aka slipped disc)",
+      "Lower back pain",
+      "Petite",
+      "Scoliosis",
+      "Shoulder Injury/Pain",
+      "Whiplash"
+    ],
+    "complaint": "Re: Mark Blake : Jen Adolfo - Previous Ergo Discussion.  Notes on file",
+    "otherNote": "Medical condition outlined in previous notes",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": null
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": null
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": null
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": null
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": null
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": null
+      }
+    ],
+    "images": [],
+    "mlCode": "AIR2-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "AIR2",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e71306",
+    "entryId": 71306,
+    "name": "Entry #71306",
+    "height": "5'5\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "74 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "I do not currently have an office chair. I would like arms that move laterally as I have wider hips. (sorry my email was incorrect on the first submission, I've corrected it here).",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 18.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 27.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 17.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 13.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 26.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 22.0
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-PS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "PS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e80930",
+    "entryId": 80930,
+    "name": "Entry #80930",
+    "height": "6'2\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "Yes",
+      "flooring": "Carpet",
+      "workSurfaceHeight": "74 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain"
+    ],
+    "complaint": "Excellent chair, the seat needs replaced but the part is no longer available.",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 5.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 23.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18.0
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e69503",
+    "entryId": 69503,
+    "name": "Entry #69503",
+    "height": "6'2\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Mesh seat",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "74 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Carpal tunnel",
+      "Sciatica",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": null,
+    "otherNote": "cervical stenosis",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 19.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 19.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 10.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 25.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 19.0
+      }
+    ],
+    "images": [],
+    "mlCode": "T-MBMESH-SG-TMBMS-TLSAL-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "T",
+      "model": "MBMESH",
+      "mechanism": "SG",
+      "seat": "TMBMS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e74484",
+    "entryId": 74484,
+    "name": "Entry #74484",
+    "height": "5'0\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Mesh seat",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "76 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "Currently I am using a dining room chair in my home office. The chair in the pictures is my husband's new chair from Ergocentric. I have a Herman Miller mesh office chair at work which I like.",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 17.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 17.0
+      },
+      {
+        "label": "Back of knee joint to floor",
         "value": 16.5
       },
       {
-        "label": "Seated hip width (at widest point)",
-        "value": 19
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 6.0
       },
       {
-        "label": "Back of knee joint to floor",
-        "value": 22
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
+        "label": "Seat surface to shoulder",
+        "value": 20.0
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 22
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 14
+        "value": 16.0
       }
     ],
-    "frontImage": "/images/nishit-front.jpeg",
-    "sideImage": "/images/nishit-side.jpeg",
+    "images": [
+      "/images/e74484-1.jpeg"
+    ],
+    "mlCode": "T-MBMESH-SG-TMBMSS-TLSAL-TCL360-140MM-NC",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "MBMESH",
       "mechanism": "SG",
       "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "140MM",
+      "caster": "NC"
     }
   },
   {
-    "id": "ravi",
-    "name": "Ravi",
-    "height": "5'11\"",
-    "weight": "68 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 19
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 18
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 21
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 5
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 24
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
-      }
-    ],
-    "frontImage": "/images/ravi-front.jpeg",
-    "sideImage": "/images/ravi-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMXLS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "kadeem",
-    "name": "Kadeem",
-    "height": "6'3\"",
-    "weight": "284lbs",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 17.5
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 22
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 22.5
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 23
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
-      }
-    ],
-    "frontImage": "/images/kadeem-front.jpeg",
-    "sideImage": "/images/kadeem-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "350MT",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "sanjay",
-    "name": "Sanjay",
-    "height": "6'2\"",
-    "weight": "185 lbs",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 16
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 16
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 22.5
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 6
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 23.5
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 17
-      }
-    ],
-    "frontImage": "/images/sanjay-front.jpeg",
-    "sideImage": "/images/sanjay-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "semina",
-    "name": "Semina",
-    "height": "5'3\"",
-    "weight": "144 lbs",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 16
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 20
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 19
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 6
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 19
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 13.5
-      }
-    ],
-    "frontImage": "/images/semina-front.jpeg",
-    "sideImage": "/images/semina-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMSS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "sharon",
-    "name": "Sharon",
-    "height": null,
-    "weight": null,
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 17
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 16
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 20
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 5
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 19
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 13
-      }
-    ],
-    "frontImage": "/images/sharon-front.jpeg",
-    "sideImage": "/images/sharon-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "smar",
-    "name": "Smar",
-    "height": "5'9\"",
-    "weight": "68 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 18
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 19
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 21
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 5
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 23
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 15.5
-      }
-    ],
-    "frontImage": "/images/smar-front.jpeg",
-    "sideImage": "/images/smar-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "sunil",
-    "name": "Sunil",
-    "height": "5'11\"",
-    "weight": "68 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 18.5
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 18
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 21
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 6
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 24
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
-      }
-    ],
-    "frontImage": "/images/sunil-front.jpeg",
-    "sideImage": "/images/sunil-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "suthadhran-karn",
-    "name": "Suthadhran Karn",
-    "height": "5'8\"",
-    "weight": "74 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 18
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 19
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 20.5
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 5
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 22
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
-      }
-    ],
-    "frontImage": "/images/suthadhran-karn-front.jpeg",
-    "sideImage": "/images/suthadhran-karn-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "tharshini",
-    "name": "Tharshini",
-    "height": "5'2\"",
-    "weight": null,
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 17
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 19
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 18.5
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 4
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 19
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 15
-      }
-    ],
-    "frontImage": "/images/tharshini-front.jpeg",
-    "sideImage": null,
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "veronica",
-    "name": "Veronica",
-    "height": "6'3\"",
-    "weight": "190 lbs",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 22
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 23
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 22.5
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 4
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 23
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 17
-      }
-    ],
-    "frontImage": "/images/veronica-front.jpeg",
-    "sideImage": "/images/veronica-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMXLS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "vinit",
-    "name": "Vinit",
-    "height": "5'4\"",
-    "weight": "67 kg",
-    "measurements": [
-      {
-        "label": "Back of buttocks to back of knees",
-        "value": 17
-      },
-      {
-        "label": "Seated hip width (at widest point)",
-        "value": 18
-      },
-      {
-        "label": "Back of knee joint to floor",
-        "value": 19.5
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 5
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 21
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 17
-      }
-    ],
-    "frontImage": "/images/vinit-front.jpeg",
-    "sideImage": "/images/vinit-side.jpeg",
-    "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
-      "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
-    }
-  },
-  {
-    "id": "wade",
-    "name": "Wade",
+    "id": "e81937",
+    "entryId": 81937,
+    "name": "Entry #81937",
     "height": "5'7\"",
-    "weight": "155 lbs",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "Foam and fabric seat",
+      "recline": "Yes",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": null,
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 17
+        "value": 18.0
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 17
+        "value": 17.0
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 20
+        "value": 17.0
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 7.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 24.0
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 19
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 13.5
+        "value": 18.0
       }
     ],
-    "frontImage": "/images/wade-front.jpeg",
-    "sideImage": "/images/wade-side.jpeg",
+    "images": [],
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
     }
   },
   {
-    "id": "warren",
-    "name": "Warren",
-    "height": "5'9\"",
-    "weight": "240 lbs",
+    "id": "e73520",
+    "entryId": 73520,
+    "name": "Entry #73520",
+    "height": "5'5\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "Foam and fabric seat",
+      "recline": null,
+      "flooring": null,
+      "workSurfaceHeight": "69 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Scoliosis"
+    ],
+    "complaint": "I sit in the edge of it and do not have back support.  I am hunched over.",
+    "otherNote": "Poor Posture",
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 17.5
+        "value": 19.0
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 20
+        "value": 17.0
       },
       {
         "label": "Back of knee joint to floor",
+        "value": 17.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 21.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 16.5
+      }
+    ],
+    "images": [
+      "/images/e73520-1.jpeg",
+      "/images/e73520-2.jpeg"
+    ],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e75621",
+    "entryId": 75621,
+    "name": "Entry #75621",
+    "height": "6'6\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Mesh seat",
+      "recline": "Yes",
+      "flooring": null,
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "Too short, doesn't rise high enough or have deep enough seat pan. Pressure point on ischium.",
+    "otherNote": "Very tall, pressure on ischium",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 20.9
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 15.8
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 21.3
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 25.2
+      },
+      {
+        "label": "Shoulder to shoulder",
         "value": 20.5
-      },
-      {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 7
-      },
-      {
-        "label": "Shoulder to shoulder",
-        "value": 23
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 20
       }
     ],
-    "frontImage": "/images/warren-front.jpeg",
-    "sideImage": "/images/warren-side.jpeg",
+    "images": [
+      "/images/e75621-1.jpeg",
+      "/images/e75621-2.jpeg"
+    ],
+    "mlCode": "T-MBMESH-SG-TMBMS-TALSC-TCL360-125MMLT-UC2",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "MBMESH",
       "mechanism": "SG",
       "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
     }
   },
   {
-    "id": "wayne",
-    "name": "Wayne",
-    "height": "5'8\"",
-    "weight": "180 lbs",
+    "id": "e80669",
+    "entryId": 80669,
+    "name": "Entry #80669",
+    "height": "5'1\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "No preference",
+      "recline": "Yes",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": "76 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain"
+    ],
+    "complaint": "Hard to sit on, thighs got numb after a while, not much back support, arm support not adjustable",
+    "otherNote": "Wrist and palm pain",
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 18
+        "value": 18.5
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 21
+        "value": 15.0
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 20
+        "value": 15.0
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 6
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 7.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 21.0
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 22
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 17
+        "value": 16.0
       }
     ],
-    "frontImage": "/images/wayne-front.jpeg",
-    "sideImage": "/images/wayne-side.jpeg",
+    "images": [],
+    "mlCode": "T-SG-SS-TALSC-TCL360-140MM-UC2",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "SS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "140MM",
+      "caster": "UC2"
     }
   },
   {
-    "id": "zafar",
-    "name": "Zafar",
+    "id": "e71912",
+    "entryId": 71912,
+    "name": "Entry #71912",
+    "height": "5'7\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "Yes",
+      "flooring": null,
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain"
+    ],
+    "complaint": "The adjustment are too low. due to back pain, I'm unable to reach and the attachments are too stiff to recline back plus they are on the right side which is my sensitive side. I have to work reclining most of the time because of my pain.",
+    "otherNote": "chronic pain in the sacroiliac region",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 20.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 18.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 16.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 13.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 24.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18.5
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e79818",
+    "entryId": 79818,
+    "name": "Entry #79818",
+    "height": "5'7\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Mesh seat",
+      "recline": "No",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": "76 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "It's not high enough for my desk and it's too big for me. Recommendations from my ergonomic assessment in the images section",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": null
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": null
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": null
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": null
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": null
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": null
+      }
+    ],
+    "images": [],
+    "mlCode": "T-MBMESH-SG-SS-TLSAL-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "T",
+      "model": "MBMESH",
+      "mechanism": "SG",
+      "seat": "SS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
+    }
+  },
+  {
+    "id": "e67070",
+    "entryId": 67070,
+    "name": "Entry #67070",
+    "height": "5'4\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Foam and fabric backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "67 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Arthritis",
+      "Lower back pain",
+      "Paralysis / paraplegic",
+      "Petite",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "Don't like that the armrests are NOT adjustable so they hit the keyboard tray and I can't pull in closer to the desk because they are in the way but I do like having armrests as long as they're adjustable.  I'm using a pillow AND a lblack umbar cushion for my lower back and because I cannot adjust the back of the chair to move forward to support me so it's too far back.  This chair doesn't have much padding at all either or much support in general.  I like that I can adjust this chair up and down and that it rolls easily.  At the beginning of the pandemic when I started working from home, I got a pinched nerve in my neck, with pain from my neck, along my shoulder, down my arm, all the way to my pinky finger, included aching, sharp pains and numbness/pins and needle prickling pain.  If you look at my pictures, you can see that my right shoulder is lower than my left for some reason too.  I'm basically in a storage type room right now so I don't want a chair that takes up a huge amount of space either.  Want something very adjustable and comfortable and offers a lot of support.  I have short torso and long limbs for my height. Thanks!",
+    "otherNote": "Arthritis in hands (especially joint between pointer finger & thumb)and feet, often have lower back pain and shoulder/neck/upper back pain, Bell's Palsy on right side of face with residual paralysis/synkinesis, slight curve in my back but not scoliosis, left knee fully torn ACL with reconstruction done Jan 2019, sometimes get pinched nerve in neck",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 19.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 15.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 17.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 10.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 20.8
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 15.0
+      }
+    ],
+    "images": [
+      "/images/e67070-1.jpeg",
+      "/images/e67070-2.jpeg"
+    ],
+    "mlCode": "AIR2-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "AIR2",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e70382",
+    "entryId": 70382,
+    "name": "Entry #70382",
+    "height": "6'0\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": "75 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "It is old and wearing out.  I am permanently working from home so I would like a good chair.  At my previous job, we had Humanscale chairs (Liberty, I think) that reclined too easily.  Even when I tightened it all the way, I found myself slouching too often.  I prefer an upright chair, but one that will recline when I want to take a break.",
+    "otherNote": "I have always removed armrests because I like to sit close to the desk and they get in the way.",
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 20.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 15.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 18.0
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 6.5
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 26.0
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": 18.5
+      }
+    ],
+    "images": [
+      "/images/e70382-1.jpeg",
+      "/images/e70382-2.jpeg"
+    ],
+    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "LS",
+      "lumbar": "TALSC",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e64323",
+    "entryId": 64323,
+    "name": "Entry #64323",
     "height": "5'2\"",
-    "weight": "57 kg",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "Mesh backrest",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [
+      "Lower back pain",
+      "Petite",
+      "Shoulder Injury/Pain"
+    ],
+    "complaint": "It feels too wide for me, limited range of adjustments for arm rests, back and height. _x000D_\nI have already connected with Mirna Sarji as per PSHSA recommendation so my file is with her.",
+    "otherNote": "neck pain, spina bidifa occulta, pinched ulnar nerve in Rt arm",
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 17
+        "value": 18.5
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 17
+        "value": 16.9
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 19.5
+        "value": 15.6
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 4
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 9.8
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 21.1
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 17
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 15
+        "value": 14.4
       }
     ],
-    "frontImage": "/images/zafar-front.jpeg",
-    "sideImage": "/images/zafar-side.jpeg",
+    "images": [
+      "/images/e64323-1.jpeg",
+      "/images/e64323-2.jpeg"
+    ],
+    "mlCode": "T-SG-SS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "SS",
+      "lumbar": "TLSAL",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
     }
   },
   {
-    "id": "zaldy",
-    "name": "Zaldy",
-    "height": "5'8\"",
-    "weight": "78 kg",
+    "id": "e64074",
+    "entryId": 64074,
+    "name": "Entry #64074",
+    "height": "6'1\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "No preference",
+      "recline": "No",
+      "flooring": null,
+      "workSurfaceHeight": null,
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "Currently using kitchen chairs and table for full time computer work.  This is hurting my back, neck, arms and wrists.  I'll be going to university in the fall an need a chair for full time online learning.",
+    "otherNote": null,
     "measurements": [
       {
         "label": "Back of buttocks to back of knees",
-        "value": 19
+        "value": null
       },
       {
         "label": "Seated hip width (at widest point)",
-        "value": 20
+        "value": null
       },
       {
         "label": "Back of knee joint to floor",
-        "value": 20
+        "value": null
       },
       {
-        "label": "Sitting surface to elbow (elbow at 90\u00b0)",
-        "value": 5
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": null
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": null
       },
       {
         "label": "Shoulder to shoulder",
-        "value": 23
-      },
-      {
-        "label": "Shoulder to shoulder (2)",
-        "value": 16
+        "value": null
       }
     ],
-    "frontImage": "/images/zaldy-front.jpeg",
-    "sideImage": "/images/zaldy-side.jpeg",
+    "images": [
+      "/images/e64074-1.jpeg",
+      "/images/e64074-2.jpeg"
+    ],
+    "mlCode": "T-SG-LS-AT-TCL360-125MMLT-NC",
     "ai": {
-      "series": "t",
-      "color": "MB",
-      "model": "MESH",
+      "series": "T",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMXLS",
-      "airLumbar": "TALSC",
-      "arms": "TCL360"
+      "seat": "LS",
+      "lumbar": "AT",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "NC"
+    }
+  },
+  {
+    "id": "e81128",
+    "entryId": 81128,
+    "name": "Entry #81128",
+    "height": "5'3\"",
+    "weight": "Less than 350 lb",
+    "preferences": {
+      "backrest": "No preference",
+      "seat": "Foam and fabric seat",
+      "recline": "No",
+      "flooring": "Hardwood",
+      "workSurfaceHeight": "78 cm",
+      "workSurfaceAdjust": null
+    },
+    "conditions": [],
+    "complaint": "My back, arms and neck hurt since I got a new desk. The desk is higher than my previous desk so I believe the chair no longer fits",
+    "otherNote": null,
+    "measurements": [
+      {
+        "label": "Back of buttocks to back of knees",
+        "value": 22.0
+      },
+      {
+        "label": "Seated hip width (at widest point)",
+        "value": 16.0
+      },
+      {
+        "label": "Back of knee joint to floor",
+        "value": 17.2
+      },
+      {
+        "label": "Sitting surface to elbow (elbow at 90°)",
+        "value": 12.0
+      },
+      {
+        "label": "Seat surface to shoulder",
+        "value": 21.2
+      },
+      {
+        "label": "Shoulder to shoulder",
+        "value": null
+      }
+    ],
+    "images": [],
+    "mlCode": "T-SG-XLS-AT-TCL360-125MMLT-UC2",
+    "ai": {
+      "series": "T",
+      "model": "",
+      "mechanism": "SG",
+      "seat": "XLS",
+      "lumbar": "AT",
+      "arms": "TCL360",
+      "lift": "125MMLT",
+      "caster": "UC2"
     }
   }
 ]

@@ -3,16 +3,20 @@
 import { useEffect, useMemo, useState } from "react";
 import participants from "@/data/participants.json";
 import {
-  MECHANISM, AIR_LUMBAR, ARMS, SEAT_GROUPS, SERIES_NAMES,
-  COMPONENT_LABELS, buildCode, labelFor, Option, OptionGroup,
+  SERIES, MODEL, MECHANISM, AIR_LUMBAR, ARMS, SEAT_GROUPS, GAS_LIFT, CASTER_GROUPS,
+  COMPONENT_LABELS, ORDER, buildCode, labelFor, Option, OptionGroup,
   ComponentKey, Selections,
 } from "@/lib/options";
 
 type Measurement = { label: string; value: number | null };
+type Prefs = {
+  backrest: string | null; seat: string | null; recline: string | null;
+  flooring: string | null; workSurfaceHeight: string | null; workSurfaceAdjust: string | null;
+};
 type Participant = {
-  id: string; name: string; height: string | null; weight: string | null;
-  measurements: Measurement[]; frontImage: string | null; sideImage: string | null;
-  ai: Selections;
+  id: string; entryId: number; name: string; height: string | null; weight: string | null;
+  preferences: Prefs; conditions: string[]; complaint: string | null; otherNote: string | null;
+  measurements: Measurement[]; images: string[]; mlCode: string; ai: Selections;
 };
 type Change = { component: string; from: string; to: string };
 type Feedback = {
@@ -23,7 +27,6 @@ type Feedback = {
 
 const PEOPLE = participants as Participant[];
 const EMAIL_KEY = "chair-review-email";
-const ORDER: ComponentKey[] = ["series", "color", "model", "mechanism", "seat", "airLumbar", "arms"];
 
 export default function Page() {
   const [email, setEmail] = useState<string | null>(null);
@@ -73,7 +76,6 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
       .catch(() => {});
   }, []);
 
-  // Load selections for the current card: saved edit if present, else AI default.
   useEffect(() => {
     const fb = feedback[current.id];
     setSel(fb?.finalSelections ? { ...fb.finalSelections } : { ...current.ai });
@@ -83,10 +85,10 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
 
   const changes: Change[] = useMemo(() => {
     if (!sel) return [];
-    return ORDER.filter((k) => sel[k] !== current.ai[k]).map((k) => ({
+    return ORDER.filter((k) => (sel[k] ?? "") !== (current.ai[k] ?? "")).map((k) => ({
       component: COMPONENT_LABELS[k],
-      from: labelFor(k, current.ai[k]),
-      to: labelFor(k, sel[k]),
+      from: labelFor(k, current.ai[k] ?? ""),
+      to: labelFor(k, sel[k] ?? ""),
     }));
   }, [sel, current.ai]);
 
@@ -119,12 +121,12 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
   }
 
   function exportCsv() {
-    const rows = [["Name", "AI recommended code", "Final code", "Status", "Changes", "Explanation", "Reviewer", "Updated At"]];
+    const rows = [["Entry Id", "AI recommended code", "Final code", "Status", "Changes", "Explanation", "Reviewer", "Updated At"]];
     for (const p of PEOPLE) {
       const fb = feedback[p.id];
       const changeText = (fb?.changes || []).map((c) => `${c.component}: ${c.from} → ${c.to}`).join("; ");
       rows.push([
-        p.name, buildCode(p.ai), fb?.finalCode ?? "", fb?.status ?? "",
+        String(p.entryId), buildCode(p.ai), fb?.finalCode ?? "", fb?.status ?? "",
         changeText, fb?.explanation ?? "", fb?.reviewerEmail ?? "",
         fb ? new Date(fb.updatedAt).toISOString() : "",
       ]);
@@ -139,6 +141,7 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
   const existing = feedback[current.id];
   const aiCode = buildCode(current.ai);
   const liveCode = buildCode(sel);
+  const p = current;
 
   return (
     <>
@@ -159,12 +162,12 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
 
       <div className="container">
         <div className="dots">
-          {PEOPLE.map((p, i) => {
-            const fb = feedback[p.id];
+          {PEOPLE.map((pp, i) => {
+            const fb = feedback[pp.id];
             const cls = fb ? fb.status : "";
             return (
-              <div key={p.id} className={`dot ${cls} ${i === idx ? "current" : ""}`}
-                title={`${p.name}${fb ? " · " + fb.status : ""}`} onClick={() => setIdx(i)}>
+              <div key={pp.id} className={`dot ${cls} ${i === idx ? "current" : ""}`}
+                title={`${pp.name}${fb ? " · " + fb.status : ""}`} onClick={() => setIdx(i)}>
                 {i + 1}
               </div>
             );
@@ -173,27 +176,44 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
 
         <div className="card">
           <div className="media">
-            {current.frontImage ? (
-              <div className="media-item">
-                <img src={current.frontImage} alt={`${current.name} front`} onClick={() => setZoom(current.frontImage)} />
-                <span className="media-tag">Front</span>
+            {p.images.length > 0 ? p.images.map((src, i) => (
+              <div className="media-item" key={src}>
+                <img src={src} alt={`${p.name} photo ${i + 1}`} onClick={() => setZoom(src)} />
+                <span className="media-tag">Photo {i + 1}</span>
               </div>
-            ) : <div className="no-image">No front image available</div>}
-            {current.sideImage ? (
-              <div className="media-item">
-                <img src={current.sideImage} alt={`${current.name} side`} onClick={() => setZoom(current.sideImage)} />
-                <span className="media-tag">Side</span>
-              </div>
-            ) : <div className="no-image">No side image available</div>}
+            )) : <div className="no-image">No photo available for this entry</div>}
           </div>
 
           <div className="detail">
-            <h2>{current.name}</h2>
-            <div className="sub">Height <b>{current.height || "—"}</b> · Weight <b>{current.weight || "—"}</b></div>
+            <h2>{p.name}</h2>
+            <div className="sub">Height <b>{p.height || "—"}</b> · Weight <b>{p.weight || "—"}</b></div>
+
+            {/* Preferences & needs */}
+            <div className="info-grid">
+              <Info k="Backrest pref." v={p.preferences.backrest} />
+              <Info k="Seat pref." v={p.preferences.seat} />
+              <Info k="Reclines?" v={p.preferences.recline} />
+              <Info k="Flooring" v={p.preferences.flooring} />
+              <Info k="Work surface" v={p.preferences.workSurfaceHeight} />
+              <Info k="Surface adj." v={p.preferences.workSurfaceAdjust} />
+            </div>
+
+            {p.conditions.length > 0 && (
+              <div className="chips">
+                {p.conditions.map((c) => <span className="chip" key={c}>{c}</span>)}
+              </div>
+            )}
+
+            {p.complaint && (
+              <div className="complaint">
+                <div className="complaint-k">Likes / dislikes about current chair</div>
+                <div className="complaint-v">{p.complaint}</div>
+              </div>
+            )}
 
             <table className="meas-table">
               <tbody>
-                {current.measurements.map((m, i) => (
+                {p.measurements.map((m, i) => (
                   <tr key={i}>
                     <td className="label">{i + 1}. {m.label}</td>
                     <td className="val">{m.value ?? "—"}{m.value != null ? '"' : ""}</td>
@@ -202,29 +222,23 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
               </tbody>
             </table>
 
-            {/* AI recommended code (reference) */}
             <div className="ai-code-banner">
               <span className="k">AI recommended code</span>
               <span className="v">{aiCode}</span>
             </div>
-
-            {/* Live edited code */}
             <div className={`live-code ${status === "edited" ? "edited" : ""}`}>
               <span className="k">{status === "edited" ? "Your edited code" : "Current code"}</span>
               <span className="v">{liveCode}</span>
             </div>
 
-            {/* Component dropdowns */}
             <div className="builder">
               <div className="builder-title">Validate or edit each part of the code</div>
               {ORDER.map((k) => (
-                <ComponentField
-                  key={k} k={k} value={sel[k]} aiValue={current.ai[k]}
+                <ComponentField key={k} k={k} value={sel[k] ?? ""} aiValue={current.ai[k] ?? ""}
                   onChange={(v) => setField(k, v)} />
               ))}
             </div>
 
-            {/* Changes summary */}
             {changes.length > 0 ? (
               <div className="changes">
                 <div className="changes-title">What you changed</div>
@@ -273,45 +287,49 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
   );
 }
 
-/* ---- One component row: dropdown (documented) or text input (free) ---- */
+function Info({ k, v }: { k: string; v: string | null }) {
+  if (!v) return null;
+  return <div className="info-item"><span className="ik">{k}</span><span className="iv">{v}</span></div>;
+}
+
 function ComponentField({ k, value, aiValue, onChange }: {
   k: ComponentKey; value: string; aiValue: string; onChange: (v: string) => void;
 }) {
-  const changed = value !== aiValue;
+  const changed = (value ?? "") !== (aiValue ?? "");
   return (
     <div className={`field-row ${changed ? "changed" : ""}`}>
       <label className="field-name">
         {COMPONENT_LABELS[k]}
         {changed && <span className="changed-badge">edited</span>}
       </label>
-      {k === "mechanism" && <SelectFlat value={value} options={MECHANISM} onChange={onChange} />}
-      {k === "airLumbar" && <SelectFlat value={value} options={AIR_LUMBAR} onChange={onChange} />}
-      {k === "arms" && <SelectFlat value={value} options={ARMS} onChange={onChange} />}
-      {k === "seat" && <SelectGrouped value={value} groups={SEAT_GROUPS} onChange={onChange} />}
-      {(k === "series" || k === "color" || k === "model") && (
+      {k === "series" && (
         <div className="free-field">
-          <input className="text-input" list={`dl-${k}`} value={value}
-            onChange={(e) => onChange(e.target.value)} />
-          {k === "series" && (
-            <datalist id="dl-series">
-              {SERIES_NAMES.map((n) => <option key={n} value={n} />)}
-            </datalist>
-          )}
-          {k === "color" && <datalist id="dl-color"><option value="MB" /></datalist>}
-          {k === "model" && <datalist id="dl-model"><option value="MESH" /><option value="FOAM" /></datalist>}
+          <input className="text-input" list="dl-series" value={value} onChange={(e) => onChange(e.target.value)} />
+          <datalist id="dl-series">{SERIES.map((o) => <option key={o.code} value={o.code}>{o.label}</option>)}</datalist>
           <span className="free-hint">code segment (editable)</span>
         </div>
       )}
+      {k === "model" && <SelectFlat value={value} options={MODEL} onChange={onChange} allowEmpty />}
+      {k === "mechanism" && <SelectFlat value={value} options={MECHANISM} onChange={onChange} />}
+      {k === "lumbar" && <SelectFlat value={value} options={AIR_LUMBAR} onChange={onChange} />}
+      {k === "arms" && <SelectFlat value={value} options={ARMS} onChange={onChange} />}
+      {k === "lift" && <SelectFlat value={value} options={GAS_LIFT} onChange={onChange} />}
+      {k === "seat" && <SelectGrouped value={value} groups={SEAT_GROUPS} onChange={onChange} />}
+      {k === "caster" && <SelectGrouped value={value} groups={CASTER_GROUPS} onChange={onChange} />}
     </div>
   );
 }
 
-function SelectFlat({ value, options, onChange }: { value: string; options: Option[]; onChange: (v: string) => void }) {
+function SelectFlat({ value, options, onChange, allowEmpty }: {
+  value: string; options: Option[]; onChange: (v: string) => void; allowEmpty?: boolean;
+}) {
   const known = options.some((o) => o.code === value);
   return (
     <select className="select" value={value} onChange={(e) => onChange(e.target.value)}>
-      {!known && <option value={value}>{value} (current)</option>}
-      {options.map((o) => <option key={o.code} value={o.code}>{o.code} — {o.label}</option>)}
+      {!known && !(allowEmpty && value === "") && <option value={value}>{value} (current)</option>}
+      {options.map((o) => (
+        <option key={o.code || "none"} value={o.code}>{o.code ? `${o.code} — ${o.label}` : o.label}</option>
+      ))}
     </select>
   );
 }

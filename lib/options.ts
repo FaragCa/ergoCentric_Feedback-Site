@@ -1,10 +1,27 @@
 // Product-code component options, transcribed from the ErgoCentric code diagram.
-// Each editable segment of  t-MBMESH-SG-TMBMSS-TALSC-TCL360  is one component.
+// Real codes look like:  T-SG-LS-TALSC-TCL360-125MMLT-NC
+//              or (mesh): T-MBMESH-SG-TMBMS-TALSC-TCL360-125MMLT-UC2
+// Order: Series, [Model], Mechanism, Seat, Air Lumbar, Arms, Gas Lift, Caster/Glide.
 
 export type Option = { code: string; label: string };
 export type OptionGroup = { group: string; options: Option[] };
 export type ComponentKey =
-  | "series" | "color" | "model" | "mechanism" | "seat" | "airLumbar" | "arms";
+  | "series" | "model" | "mechanism" | "seat" | "lumbar" | "arms" | "lift" | "caster";
+
+// --- Series (short codes seen in the data; editable) ----------------------
+export const SERIES: Option[] = [
+  { code: "T", label: "tCentric" },
+  { code: "AIR2", label: "airCentric 2" },
+  { code: "AIR", label: "airCentric" },
+  { code: "E500", label: "e500" },
+  { code: "24C", label: "24Centric" },
+];
+
+// --- Model / finish (optional segment; empty = foam & fabric) -------------
+export const MODEL: Option[] = [
+  { code: "", label: "Foam & fabric (no code)" },
+  { code: "MBMESH", label: "Mesh — Midnight Black (MBMESH)" },
+];
 
 // --- Mechanism -----------------------------------------------------------
 export const MECHANISM: Option[] = [
@@ -85,53 +102,94 @@ export const SEAT_GROUPS: OptionGroup[] = [
     ],
   },
 ];
-
 export const SEAT_FLAT: Option[] = SEAT_GROUPS.flatMap((g) => g.options);
 
-// --- Series names (reference only — no codes in the source diagram) -------
-export const SERIES_NAMES: string[] = [
-  "tCentric", "airCentric", "eCentric Executive", "myCentric", "Saffron",
-  "geoCentric", "ecoCentric", "iCentric", "ergoForce", "24Centric", "e500",
-  "Little Person Chair", "ergoCentric Specialty Seating", "ergoCentric Sit Stand",
-  "3-in-1 Sit Stand", "Scooter Stool", "ergoCentric Cafe Stool", "Ergo F Series",
-  "Ergo F ESD Series", "Ind F Series", "Ergo 2F Series", "Ergo 2F ESD Series",
-  "Ind 2F Series",
+// --- Gas lift (commonly used pneumatic lifts, with seat-height range) ------
+export const GAS_LIFT: Option[] = [
+  { code: "70MMLT", label: "70 mmLT lift (12½\" – 15½\")" },
+  { code: "70MM", label: "70 mm lift (13½\" – 16¼\")" },
+  { code: "80MM", label: "80 mm lift (14¼\" – 17¼\")" },
+  { code: "100MM", label: "100 mm lift (14¾\" – 18¾\")" },
+  { code: "125MM", label: "125 mm lift (14\" – 18½\")" },
+  { code: "125MMLT", label: "125 mmLT lift (14¾\" – 19\")" },
+  { code: "140MM", label: "140 mm lift (16\" – 21¼\")" },
+  { code: "157MM", label: "157 mm lift (18¼\" – 23¾\")" },
+  { code: "200MM", label: "200 mm lift (23\" – 29½\")" },
+  { code: "267MM", label: "267 mm lift (24¼\" – 34¼\")" },
 ];
 
-// --- Human-readable component names + lookups ----------------------------
+// --- Caster / Glide (last segment) ---------------------------------------
+export const CASTER_GROUPS: OptionGroup[] = [
+  {
+    group: "Casters",
+    options: [
+      { code: "E500CASTER", label: "e500 Caster" },
+      { code: "CAC", label: "Silver Accent Caster" },
+      { code: "NC", label: "Dual Wheel Nylon Caster" },
+      { code: "UC", label: "Dual Wheel Urethane Caster" },
+      { code: "FSW", label: "Heavy Duty Grey Single Wheel Caster" },
+      { code: "LOF", label: "Lock-off Caster" },
+      { code: "LON", label: "Lock-on Caster" },
+      { code: "MAN", label: "Manual Lock Caster" },
+      { code: "NC2", label: "Nylon Caster 2" },
+      { code: "GNC2", label: "Nylon Caster 2 (glass)" },
+      { code: "SW", label: "Single Wheel Nylon Caster" },
+      { code: "SWU", label: "Single Wheel Urethane Caster" },
+      { code: "UC2", label: "Urethane Caster 2" },
+      { code: "GUC2", label: "Urethane Casters 2 (glass)" },
+      { code: "ZC", label: "Zero Dual Wheel Urethane Casters" },
+      { code: "OMC", label: "2\" Neoprene Caster" },
+      { code: "OMU", label: "3\" Neoprene Caster" },
+      { code: "NSC", label: "Nylon Stacker Caster" },
+      { code: "USC", label: "Urethane Stacker Caster" },
+    ],
+  },
+  {
+    group: "Glides",
+    options: [
+      { code: "1G", label: "1¼\" Glide" },
+      { code: "HG", label: "½\" (flat) Glide" },
+      { code: "2G", label: "2¼\" Glide" },
+      { code: "STACKGL", label: "Stacker Glide" },
+    ],
+  },
+];
+export const CASTER_FLAT: Option[] = CASTER_GROUPS.flatMap((g) => g.options);
+
+// --- Human-readable component names + config -----------------------------
 export const COMPONENT_LABELS: Record<ComponentKey, string> = {
   series: "Series",
-  color: "Color",
-  model: "Model",
+  model: "Model / finish",
   mechanism: "Mechanism",
   seat: "Seat size",
-  airLumbar: "Air Lumbar",
+  lumbar: "Air Lumbar",
   arms: "Arms",
+  lift: "Gas lift",
+  caster: "Caster / Glide",
 };
 
-// Which components are fixed dropdowns (have documented options) vs free text.
-export const FREE_TEXT: ComponentKey[] = ["series", "color", "model"];
+// Series is a free-text (editable) field; everything else is a dropdown.
+export const FREE_TEXT: ComponentKey[] = ["series"];
 
 export type Selections = Record<ComponentKey, string>;
+export const ORDER: ComponentKey[] =
+  ["series", "model", "mechanism", "seat", "lumbar", "arms", "lift", "caster"];
 
-// Build the full product code from selections:  t-MBMESH-SG-TMBMSS-TALSC-TCL360
+// Build the full product code (the optional Model segment is dropped when empty).
 export function buildCode(s: Selections): string {
-  return [
-    s.series,
-    `${s.color}${s.model}`,
-    s.mechanism,
-    s.seat,
-    s.airLumbar,
-    s.arms,
-  ].join("-");
+  return ORDER
+    .map((k) => s[k])
+    .filter((v) => v !== undefined && v !== null && String(v).trim() !== "")
+    .join("-");
 }
 
-// Look up a friendly label for a code within a component (for change summaries).
+// Friendly label for a code within a component (for change summaries).
 export function labelFor(key: ComponentKey, code: string): string {
+  if (key === "model" && (!code || code === "")) return "(foam & fabric)";
   const table: Record<ComponentKey, Option[]> = {
-    series: [], color: [], model: [],
-    mechanism: MECHANISM, seat: SEAT_FLAT, airLumbar: AIR_LUMBAR, arms: ARMS,
+    series: SERIES, model: MODEL, mechanism: MECHANISM, seat: SEAT_FLAT,
+    lumbar: AIR_LUMBAR, arms: ARMS, lift: GAS_LIFT, caster: CASTER_FLAT,
   };
   const hit = table[key].find((o) => o.code === code);
-  return hit ? `${code} (${hit.label})` : code;
+  return hit && hit.code ? `${code} (${hit.label})` : (code || "(none)");
 }
