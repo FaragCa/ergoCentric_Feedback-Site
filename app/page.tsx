@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import participants from "@/data/participants.json";
 import {
   SERIES, MODEL, MECHANISM, AIR_LUMBAR, ARMS, SEAT_GROUPS, GAS_LIFT, CASTER_GROUPS,
@@ -27,6 +27,14 @@ type Feedback = {
 
 const PEOPLE = participants as Participant[];
 const EMAIL_KEY = "chair-review-email";
+
+const FLAT: Partial<Record<ComponentKey, Option[]>> = {
+  series: SERIES, model: MODEL, mechanism: MECHANISM,
+  lumbar: AIR_LUMBAR, arms: ARMS, lift: GAS_LIFT,
+};
+const GROUPED: Partial<Record<ComponentKey, OptionGroup[]>> = {
+  seat: SEAT_GROUPS, caster: CASTER_GROUPS,
+};
 
 export default function Page() {
   const [email, setEmail] = useState<string | null>(null);
@@ -64,6 +72,7 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
   const [toast, setToast] = useState<string | null>(null);
 
   const [sel, setSel] = useState<Selections | null>(null);
+  const [openKey, setOpenKey] = useState<ComponentKey | null>(null);
   const [explanation, setExplanation] = useState("");
   const [saving, setSaving] = useState(false);
   const [showErr, setShowErr] = useState(false);
@@ -81,6 +90,7 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
     setSel(fb?.finalSelections ? { ...fb.finalSelections } : { ...current.ai });
     setExplanation(fb?.explanation ?? "");
     setShowErr(false);
+    setOpenKey(null);
   }, [idx, feedback, current.id, current.ai]);
 
   const changes: Change[] = useMemo(() => {
@@ -97,7 +107,7 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
 
   function flash(msg: string) { setToast(msg); setTimeout(() => setToast(null), 1800); }
   function setField(k: ComponentKey, v: string) { setSel((s) => (s ? { ...s, [k]: v } : s)); setShowErr(false); }
-  function resetToAi() { setSel({ ...current.ai }); setExplanation(""); setShowErr(false); }
+  function resetToAi() { setSel({ ...current.ai }); setExplanation(""); setShowErr(false); setOpenKey(null); }
 
   async function save(goNext: boolean) {
     if (!sel) return;
@@ -139,7 +149,6 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
 
   if (!sel) return null;
   const existing = feedback[current.id];
-  const aiCode = buildCode(current.ai);
   const liveCode = buildCode(sel);
   const p = current;
 
@@ -188,7 +197,6 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
             <h2>{p.name}</h2>
             <div className="sub">Height <b>{p.height || "—"}</b> · Weight <b>{p.weight || "—"}</b></div>
 
-            {/* Preferences & needs */}
             <div className="info-grid">
               <Info k="Backrest pref." v={p.preferences.backrest} />
               <Info k="Seat pref." v={p.preferences.seat} />
@@ -222,22 +230,25 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
               </tbody>
             </table>
 
-            <div className="ai-code-banner">
-              <span className="k">AI recommended code</span>
-              <span className="v">{aiCode}</span>
-            </div>
-            <div className={`live-code ${status === "edited" ? "edited" : ""}`}>
-              <span className="k">{status === "edited" ? "Your edited code" : "Current code"}</span>
-              <span className="v">{liveCode}</span>
-            </div>
-
-            <div className="builder">
-              <div className="builder-title">Validate or edit each part of the code</div>
-              {ORDER.map((k) => (
-                <ComponentField key={k} k={k} value={sel[k] ?? ""} aiValue={current.ai[k] ?? ""}
-                  onChange={(v) => setField(k, v)} />
+            {/* Inline, click-to-edit code */}
+            <div className="builder-title">Recommended code — click any part to change it</div>
+            <div className="code-line">
+              {ORDER.map((k, i) => (
+                <Fragment key={k}>
+                  {i > 0 && <span className="sep">–</span>}
+                  <Segment
+                    k={k}
+                    value={sel[k] ?? ""}
+                    changed={(sel[k] ?? "") !== (current.ai[k] ?? "")}
+                    open={openKey === k}
+                    onToggle={() => setOpenKey(openKey === k ? null : k)}
+                    onType={(v) => setField(k, v)}
+                    onPick={(v) => { setField(k, v); setOpenKey(null); }}
+                  />
+                </Fragment>
               ))}
             </div>
+            <div className="final-code">Full code: <code>{liveCode}</code></div>
 
             {changes.length > 0 ? (
               <div className="changes">
@@ -247,13 +258,13 @@ function Reviewer({ email, onLogout }: { email: string; onLogout: () => void }) 
                     <li key={i}><b>{c.component}</b>: {c.from} → <b>{c.to}</b></li>
                   ))}
                 </ul>
-                <label className="field-label" htmlFor="why">Explain why (one sentence)</label>
+                <label className="field-label" htmlFor="why">Reason for the change (one sentence)</label>
                 <textarea id="why" className="reason-area" placeholder="e.g. Hip width is 22 in, so a wider Plus-size seat fits better than the AI's standard."
                   value={explanation} onChange={(e) => { setExplanation(e.target.value); if (e.target.value.trim()) setShowErr(false); }} />
-                {showErr && <div className="reason-req">An explanation is required when you change the code.</div>}
+                {showErr && <div className="reason-req">A reason is required when you change the code.</div>}
               </div>
             ) : (
-              <div className="validate-note">No changes — you are validating the AI recommendation as correct. (You may add an optional note below.)
+              <div className="validate-note">No changes — you are validating the AI recommendation as correct. (Optional note below.)
                 <textarea className="reason-area" style={{ marginTop: 8 }} placeholder="Optional note…"
                   value={explanation} onChange={(e) => setExplanation(e.target.value)} />
               </div>
@@ -292,58 +303,52 @@ function Info({ k, v }: { k: string; v: string | null }) {
   return <div className="info-item"><span className="ik">{k}</span><span className="iv">{v}</span></div>;
 }
 
-function ComponentField({ k, value, aiValue, onChange }: {
-  k: ComponentKey; value: string; aiValue: string; onChange: (v: string) => void;
+/* ---- one clickable code segment with its dropdown ---- */
+function Segment({ k, value, changed, open, onToggle, onType, onPick }: {
+  k: ComponentKey; value: string; changed: boolean; open: boolean;
+  onToggle: () => void; onType: (v: string) => void; onPick: (v: string) => void;
 }) {
-  const changed = (value ?? "") !== (aiValue ?? "");
+  const isEmptyModel = k === "model" && !value;
+  const flat = FLAT[k];
+  const grouped = GROUPED[k];
   return (
-    <div className={`field-row ${changed ? "changed" : ""}`}>
-      <label className="field-name">
-        {COMPONENT_LABELS[k]}
-        {changed && <span className="changed-badge">edited</span>}
-      </label>
-      {k === "series" && (
-        <div className="free-field">
-          <input className="text-input" list="dl-series" value={value} onChange={(e) => onChange(e.target.value)} />
-          <datalist id="dl-series">{SERIES.map((o) => <option key={o.code} value={o.code}>{o.label}</option>)}</datalist>
-          <span className="free-hint">code segment (editable)</span>
-        </div>
+    <span className="seg-wrap">
+      <button className={`seg ${changed ? "changed" : ""} ${isEmptyModel ? "empty" : ""} ${open ? "open" : ""}`}
+        onClick={onToggle} title={COMPONENT_LABELS[k]}>
+        <span className="seg-val">{isEmptyModel ? "+ model" : value}</span>
+        <span className="seg-caret">▾</span>
+      </button>
+      <span className="seg-label">{COMPONENT_LABELS[k]}</span>
+      {open && (
+        <>
+          <div className="pop-backdrop" onClick={onToggle} />
+          <div className="pop">
+            {k === "series" && (
+              <input className="pop-input" autoFocus value={value}
+                onChange={(e) => onType(e.target.value)} placeholder="type a series code" />
+            )}
+            {flat && flat.map((o) => (
+              <button key={o.code || "none"} className={`opt ${o.code === value ? "sel" : ""}`}
+                onClick={() => onPick(o.code)}>
+                <span className="opt-code">{o.code || "(none)"}</span>
+                <span className="opt-label">{o.label}</span>
+              </button>
+            ))}
+            {grouped && grouped.map((g) => (
+              <div key={g.group}>
+                <div className="opt-group">{g.group}</div>
+                {g.options.map((o) => (
+                  <button key={o.code} className={`opt ${o.code === value ? "sel" : ""}`}
+                    onClick={() => onPick(o.code)}>
+                    <span className="opt-code">{o.code}</span>
+                    <span className="opt-label">{o.label}</span>
+                  </button>
+                ))}
+              </div>
+            ))}
+          </div>
+        </>
       )}
-      {k === "model" && <SelectFlat value={value} options={MODEL} onChange={onChange} allowEmpty />}
-      {k === "mechanism" && <SelectFlat value={value} options={MECHANISM} onChange={onChange} />}
-      {k === "lumbar" && <SelectFlat value={value} options={AIR_LUMBAR} onChange={onChange} />}
-      {k === "arms" && <SelectFlat value={value} options={ARMS} onChange={onChange} />}
-      {k === "lift" && <SelectFlat value={value} options={GAS_LIFT} onChange={onChange} />}
-      {k === "seat" && <SelectGrouped value={value} groups={SEAT_GROUPS} onChange={onChange} />}
-      {k === "caster" && <SelectGrouped value={value} groups={CASTER_GROUPS} onChange={onChange} />}
-    </div>
-  );
-}
-
-function SelectFlat({ value, options, onChange, allowEmpty }: {
-  value: string; options: Option[]; onChange: (v: string) => void; allowEmpty?: boolean;
-}) {
-  const known = options.some((o) => o.code === value);
-  return (
-    <select className="select" value={value} onChange={(e) => onChange(e.target.value)}>
-      {!known && !(allowEmpty && value === "") && <option value={value}>{value} (current)</option>}
-      {options.map((o) => (
-        <option key={o.code || "none"} value={o.code}>{o.code ? `${o.code} — ${o.label}` : o.label}</option>
-      ))}
-    </select>
-  );
-}
-
-function SelectGrouped({ value, groups, onChange }: { value: string; groups: OptionGroup[]; onChange: (v: string) => void }) {
-  const known = groups.some((g) => g.options.some((o) => o.code === value));
-  return (
-    <select className="select" value={value} onChange={(e) => onChange(e.target.value)}>
-      {!known && <option value={value}>{value} (current)</option>}
-      {groups.map((g) => (
-        <optgroup key={g.group} label={g.group}>
-          {g.options.map((o) => <option key={o.code} value={o.code}>{o.code} — {o.label}</option>)}
-        </optgroup>
-      ))}
-    </select>
+    </span>
   );
 }

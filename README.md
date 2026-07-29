@@ -22,11 +22,13 @@ and export it all to CSV.
 
 1. Open the link, type an email, click **Start reviewing**.
 2. For each entry: look at the photos, measurements, preferences, health
-   conditions and the person's complaint, and the **AI recommended code**. The
-   same code appears as a set of dropdowns pre-set to the AI's choice.
-3. If it's right, just **Validate & next**. If not, change any dropdown(s) — the
-   code rebuilds live, the app lists exactly what you changed (e.g. *Mechanism:
-   SG → ST*), and you write a one-sentence **why**. Then **Save edit & next**.
+   conditions and the person's complaint, and the **AI recommended code** — shown
+   as a single horizontal line, each part clickable.
+3. If it's right, just **Validate & next**. If not, **click any part of the code**
+   (Series, Model, Mechanism, Seat, …) — a dropdown appears right there to pick a
+   different option. The code rebuilds live, the app lists exactly what you
+   changed (e.g. *Seat size: SS → PS*), and you write a one-sentence **why**. Then
+   **Save edit & next**.
 4. The numbered squares at the top jump to any card and are colour-coded
    (green = validated, blue = edited). You can go back and change any answer.
 5. **Export CSV** downloads, per person: AI code, final code, validated/edited,
