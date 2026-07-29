@@ -48,13 +48,13 @@
       "/images/e87606-1.jpeg",
       "/images/e87606-2.jpeg"
     ],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-SS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "LS",
-      "lumbar": "TALSC",
+      "mechanism": "MT",
+      "seat": "SS",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -109,13 +109,13 @@
       "/images/e87262-1.jpeg",
       "/images/e87262-2.jpeg"
     ],
-    "mlCode": "T-SG-LS-AT-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-SS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "LS",
-      "lumbar": "AT",
+      "mechanism": "MT",
+      "seat": "SS",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -170,13 +170,13 @@
       "/images/e87081-1.jpeg",
       "/images/e87081-2.jpeg"
     ],
-    "mlCode": "T-MBMESH-SG-TMBMS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MBMESH-SG-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "MBMESH",
       "mechanism": "SG",
-      "seat": "TMBMS",
-      "lumbar": "TALSC",
+      "seat": "LS",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -233,13 +233,13 @@
       "/images/e86963-1.jpeg",
       "/images/e86963-2.jpeg"
     ],
-    "mlCode": "AIR2-SG-SS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "AIR2-MT-LS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "AIR2",
       "model": "",
-      "mechanism": "SG",
-      "seat": "SS",
-      "lumbar": "TLSAL",
+      "mechanism": "MT",
+      "seat": "LS",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -294,12 +294,12 @@
       "/images/e86927-1.jpeg",
       "/images/e86927-2.jpeg"
     ],
-    "mlCode": "T-SG-SS-TLSAL-TCL360-125MMLT-UC2",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "SS",
+      "mechanism": "MT",
+      "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
@@ -355,13 +355,13 @@
       "/images/e86923-1.jpeg",
       "/images/e86923-2.jpeg"
     ],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -416,13 +416,13 @@
       "/images/e86761-1.jpeg",
       "/images/e86761-2.jpeg"
     ],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -478,12 +478,12 @@
       "/images/e86701-1.jpeg",
       "/images/e86701-2.jpeg"
     ],
-    "mlCode": "AIR2-SG-XLS-AL-TCL360-125MMLT-NC",
+    "mlCode": "AIR2-MT-LS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "AIR2",
       "model": "",
-      "mechanism": "SG",
-      "seat": "XLS",
+      "mechanism": "MT",
+      "seat": "LS",
       "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
@@ -542,13 +542,13 @@
       "/images/e86665-2.jpeg",
       "/images/e86665-3.jpeg"
     ],
-    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-SS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "LS",
-      "lumbar": "TLSAL",
+      "mechanism": "MT",
+      "seat": "SS",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -604,16 +604,16 @@
       "/images/e86278-1.jpeg",
       "/images/e86278-2.jpeg"
     ],
-    "mlCode": "AIR2-SG-LS-TLSAL-TCL360-125MMLT-UC2",
+    "mlCode": "AIR2-MT-LS-AL-TCL360-125MMLT-UC",
     "ai": {
       "series": "AIR2",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TLSAL",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
-      "caster": "UC2"
+      "caster": "UC"
     }
   },
   {
@@ -660,13 +660,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -721,12 +721,12 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-SS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "SS",
+      "mechanism": "MT",
+      "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
@@ -779,13 +779,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TLSAL",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -838,13 +838,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-XLS-TALSC-TCL360-125MMLT-UC2",
+    "mlCode": "T-SG-XLS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
       "model": "",
       "mechanism": "SG",
       "seat": "XLS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "UC2"
@@ -897,13 +897,13 @@
       "/images/e77636-1.jpeg",
       "/images/e77636-2.jpeg"
     ],
-    "mlCode": "T-MBMESH-SG-TMBMS-AT-TCL360-125MMLT-UC2",
+    "mlCode": "T-MBMESH-SG-TMBMS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
       "model": "MBMESH",
       "mechanism": "SG",
       "seat": "TMBMS",
-      "lumbar": "AT",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "UC2"
@@ -955,7 +955,7 @@
       }
     ],
     "images": [],
-    "mlCode": "AIR2-MT-LS-AL-TCL360-140MM-UC2",
+    "mlCode": "AIR2-MT-LS-AL-TCL360-125MMLT-UC",
     "ai": {
       "series": "AIR2",
       "model": "",
@@ -963,8 +963,8 @@
       "seat": "LS",
       "lumbar": "AL",
       "arms": "TCL360",
-      "lift": "140MM",
-      "caster": "UC2"
+      "lift": "125MMLT",
+      "caster": "UC"
     }
   },
   {
@@ -1011,13 +1011,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-XLS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-XLS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "XLS",
-      "lumbar": "TALSC",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -1070,13 +1070,13 @@
       "/images/e77696-1.jpeg",
       "/images/e77696-2.jpeg"
     ],
-    "mlCode": "T-SG-LS-AT-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "AT",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -1126,16 +1126,16 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
       "model": "",
       "mechanism": "SG",
       "seat": "LS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
-      "caster": "NC"
+      "caster": "UC2"
     }
   },
   {
@@ -1185,11 +1185,11 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
@@ -1245,13 +1245,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-UC2",
+    "mlCode": "AIR2-MT-LS-AL-TCL360-125MMLT-UC2",
     "ai": {
-      "series": "T",
+      "series": "AIR2",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TLSAL",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "UC2"
@@ -1304,13 +1304,13 @@
       "/images/e76327-1.jpeg",
       "/images/e76327-2.jpeg"
     ],
-    "mlCode": "T-MBMESH-SG-TMBMS-TALSC-TCL360-125MMLT-UC2",
+    "mlCode": "T-SG-TMBMS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
-      "model": "MBMESH",
+      "model": "",
       "mechanism": "SG",
       "seat": "TMBMS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "UC2"
@@ -1365,12 +1365,12 @@
       "/images/e76187-1.jpeg",
       "/images/e76187-2.jpeg"
     ],
-    "mlCode": "T-SG-XLS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "XLS",
+      "mechanism": "MT",
+      "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
@@ -1427,12 +1427,12 @@
       }
     ],
     "images": [],
-    "mlCode": "T-MBMESH-SG-TMBMS-TLSAL-TCL360-125MMLT-UC2",
+    "mlCode": "T-SG-TMBMLS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
-      "model": "MBMESH",
+      "model": "",
       "mechanism": "SG",
-      "seat": "TMBMS",
+      "seat": "TMBMLS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
@@ -1490,13 +1490,13 @@
       "/images/e66307-1.jpeg",
       "/images/e66307-2.jpeg"
     ],
-    "mlCode": "AIR2-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "T-MBUP-SG-LS-AL-TCL360-125MMLT-NC",
     "ai": {
-      "series": "AIR2",
-      "model": "",
+      "series": "T",
+      "model": "MBUP",
       "mechanism": "SG",
       "seat": "LS",
-      "lumbar": "TLSAL",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -1553,11 +1553,11 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
@@ -1609,13 +1609,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-AT-TCL360-125MMLT-UC2",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "AT",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "UC2"
@@ -1668,16 +1668,16 @@
       "/images/e69659-1.jpeg",
       "/images/e69659-2.jpeg"
     ],
-    "mlCode": "T-SG-XLS-TALSC-TCL360-125MMLT-UC2",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "XLS",
-      "lumbar": "TALSC",
+      "mechanism": "MT",
+      "seat": "LS",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
-      "caster": "UC2"
+      "caster": "NC"
     }
   },
   {
@@ -1729,13 +1729,13 @@
       "/images/e66879-1.jpeg",
       "/images/e66879-2.jpeg"
     ],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -1787,11 +1787,11 @@
       }
     ],
     "images": [],
-    "mlCode": "AIR2-SG-LS-AL-TCL360-125MMLT-NC",
+    "mlCode": "AIR2-MT-LS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "AIR2",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
       "lumbar": "AL",
       "arms": "TCL360",
@@ -1846,13 +1846,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TLSAL",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -1905,16 +1905,16 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-XLS-TLSAL-TCL360-125MMLT-UC2",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "XLS",
+      "mechanism": "MT",
+      "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
-      "caster": "UC2"
+      "caster": "NC"
     }
   },
   {
@@ -1965,12 +1965,12 @@
       }
     ],
     "images": [],
-    "mlCode": "AIR2-SG-SS-AL-TCL360-125MMLT-NC",
+    "mlCode": "AIR2-MT-LS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "AIR2",
       "model": "",
-      "mechanism": "SG",
-      "seat": "SS",
+      "mechanism": "MT",
+      "seat": "LS",
       "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
@@ -2026,16 +2026,16 @@
       }
     ],
     "images": [],
-    "mlCode": "AIR2-SG-XLS-TLSAL-TCL360-125MMLT-UC2",
+    "mlCode": "AIR2-SG-LS-AL-TCL360-125MMLT-UC",
     "ai": {
       "series": "AIR2",
       "model": "",
       "mechanism": "SG",
-      "seat": "XLS",
-      "lumbar": "TLSAL",
+      "seat": "LS",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
-      "caster": "UC2"
+      "caster": "UC"
     }
   },
   {
@@ -2089,13 +2089,13 @@
       }
     ],
     "images": [],
-    "mlCode": "AIR2-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "AIR2-MT-LS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "AIR2",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TLSAL",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -2145,13 +2145,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-PS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "PS",
-      "lumbar": "TALSC",
+      "mechanism": "MT",
+      "seat": "LS",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -2203,13 +2203,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
       "mechanism": "SG",
       "seat": "LS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -2263,12 +2263,12 @@
       }
     ],
     "images": [],
-    "mlCode": "T-MBMESH-SG-TMBMS-TLSAL-TCL360-125MMLT-UC2",
+    "mlCode": "T-MBMESH-SG-LS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
       "model": "MBMESH",
       "mechanism": "SG",
-      "seat": "TMBMS",
+      "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
@@ -2323,15 +2323,15 @@
     "images": [
       "/images/e74484-1.jpeg"
     ],
-    "mlCode": "T-MBMESH-SG-TMBMSS-TLSAL-TCL360-140MM-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
-      "model": "MBMESH",
-      "mechanism": "SG",
-      "seat": "TMBMSS",
+      "model": "",
+      "mechanism": "MT",
+      "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
-      "lift": "140MM",
+      "lift": "125MMLT",
       "caster": "NC"
     }
   },
@@ -2443,13 +2443,13 @@
       "/images/e73520-1.jpeg",
       "/images/e73520-2.jpeg"
     ],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -2502,13 +2502,13 @@
       "/images/e75621-1.jpeg",
       "/images/e75621-2.jpeg"
     ],
-    "mlCode": "T-MBMESH-SG-TMBMS-TALSC-TCL360-125MMLT-UC2",
+    "mlCode": "T-MBMESH-SG-LS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
       "model": "MBMESH",
       "mechanism": "SG",
-      "seat": "TMBMS",
-      "lumbar": "TALSC",
+      "seat": "LS",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "UC2"
@@ -2560,15 +2560,15 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-SS-TALSC-TCL360-140MM-UC2",
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
       "model": "",
       "mechanism": "SG",
-      "seat": "SS",
-      "lumbar": "TALSC",
+      "seat": "LS",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
-      "lift": "140MM",
+      "lift": "125MMLT",
       "caster": "UC2"
     }
   },
@@ -2618,13 +2618,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -2677,12 +2677,12 @@
       }
     ],
     "images": [],
-    "mlCode": "T-MBMESH-SG-SS-TLSAL-TCL360-125MMLT-UC2",
+    "mlCode": "T-SG-LS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
-      "model": "MBMESH",
+      "model": "",
       "mechanism": "SG",
-      "seat": "SS",
+      "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
@@ -2742,13 +2742,13 @@
       "/images/e67070-1.jpeg",
       "/images/e67070-2.jpeg"
     ],
-    "mlCode": "AIR2-SG-LS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "AIR2-MT-LS-AL-TCL360-125MMLT-NC",
     "ai": {
       "series": "AIR2",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TLSAL",
+      "lumbar": "AL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -2801,13 +2801,13 @@
       "/images/e70382-1.jpeg",
       "/images/e70382-2.jpeg"
     ],
-    "mlCode": "T-SG-LS-TALSC-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "TALSC",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -2864,12 +2864,12 @@
       "/images/e64323-1.jpeg",
       "/images/e64323-2.jpeg"
     ],
-    "mlCode": "T-SG-SS-TLSAL-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "SS",
+      "mechanism": "MT",
+      "seat": "LS",
       "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
@@ -2923,13 +2923,13 @@
       "/images/e64074-1.jpeg",
       "/images/e64074-2.jpeg"
     ],
-    "mlCode": "T-SG-LS-AT-TCL360-125MMLT-NC",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-NC",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
+      "mechanism": "MT",
       "seat": "LS",
-      "lumbar": "AT",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "NC"
@@ -2979,13 +2979,13 @@
       }
     ],
     "images": [],
-    "mlCode": "T-SG-XLS-AT-TCL360-125MMLT-UC2",
+    "mlCode": "T-MT-LS-TLSAL-TCL360-125MMLT-UC2",
     "ai": {
       "series": "T",
       "model": "",
-      "mechanism": "SG",
-      "seat": "XLS",
-      "lumbar": "AT",
+      "mechanism": "MT",
+      "seat": "LS",
+      "lumbar": "TLSAL",
       "arms": "TCL360",
       "lift": "125MMLT",
       "caster": "UC2"

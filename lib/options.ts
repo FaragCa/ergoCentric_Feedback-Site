@@ -21,6 +21,7 @@ export const SERIES: Option[] = [
 export const MODEL: Option[] = [
   { code: "", label: "Foam & fabric (no code)" },
   { code: "MBMESH", label: "Mesh — Midnight Black (MBMESH)" },
+  { code: "MBUP", label: "Upholstered — Midnight Black (MBUP)" },
 ];
 
 // --- Mechanism -----------------------------------------------------------
@@ -69,6 +70,7 @@ export const SEAT_GROUPS: OptionGroup[] = [
     options: [
       { code: "TMBMSS", label: "Small — 20\"w x 16½\"d" },
       { code: "TMBMS", label: "Large/Standard — 21\"w x 18½\"d" },
+      { code: "TMBMLS", label: "Large — mesh" },
       { code: "TMBMXLS", label: "Extra Long — 21\"w x 19½\"d" },
     ],
   },
