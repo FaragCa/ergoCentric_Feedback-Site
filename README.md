@@ -60,22 +60,38 @@ git push -u origin main
   not yet shared (you'll see an amber banner). Do step 3 to turn on the shared
   database.
 
-### 3. Turn on the shared database (so you can see the technician's answers)
-In your Vercel project:
-- Open the **Storage** tab → **Create Database** → choose **Upstash for Redis**
-  (Marketplace, free tier) → connect it to this project.
-- Vercel automatically adds the required environment variables
-  (`KV_REST_API_URL` / `KV_REST_API_TOKEN`, or the `UPSTASH_REDIS_REST_*`
-  equivalents) to the project.
-- Go to **Deployments → … → Redeploy** so the new variables take effect.
+### 3. Turn on shared saving — save feedback into this GitHub repo
+
+Feedback is saved as a `feedback.json` file **committed into this repo** (on a
+separate `feedback-store` branch, so it never rebuilds your site). Any reviewer's
+saves go there; anyone opening the link sees the same data; you export it all as
+CSV. To switch it on you give the site permission to write to the repo, via **one
+token**:
+
+1. **Create a GitHub token.** GitHub → your avatar → **Settings → Developer
+   settings → Personal access tokens → Fine-grained tokens → Generate new token**.
+   - **Repository access:** Only select repositories → pick
+     `ergoCentric_Feedback-Site`.
+   - **Permissions:** Repository permissions → **Contents → Read and write**.
+   - Generate, and **copy the token** (starts with `github_pat_…`).
+2. **Add it to Vercel.** Vercel project → **Settings → Environment Variables** →
+   add `GITHUB_TOKEN` = the token you copied → Save.
+3. **Redeploy.** Deployments tab → newest → **⋯ → Redeploy**.
 
 That's it. The amber "demo mode" banner disappears and every reviewer's feedback
-is now saved centrally. Share the link with the technician; log in yourself later
-with your own email to review and **Export CSV**.
+is saved into the repo and shared. Log in later with your own email and
+**Export CSV** for everything.
 
-> No database = the app still runs, but feedback only lives in whoever's browser
-> made it and is **not** shared. The database is what makes cross-person viewing
-> work.
+Optional env vars (sensible defaults already set): `GITHUB_REPO`
+(`owner/repo`), `GITHUB_DATA_BRANCH` (`feedback-store`), `GITHUB_DATA_PATH`
+(`feedback.json`).
+
+> No token = the app still runs, but feedback only lives on whoever's machine
+> made it and is **not** shared. The token is what makes cross-person viewing work.
+>
+> Prefer a database instead? Add an **Upstash for Redis** store in Vercel's
+> Storage tab — the app auto-detects its `KV_REST_API_*` / `UPSTASH_REDIS_REST_*`
+> keys and uses it instead. Either backend works; you only need one.
 
 ---
 
