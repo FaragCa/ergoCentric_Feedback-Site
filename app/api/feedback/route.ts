@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getAllFeedback, saveFeedback, isSharedBackendConfigured, Feedback } from "@/lib/store";
+import { getAllFeedback, saveFeedback, isSharedBackendConfigured, backendDiag, Feedback } from "@/lib/store";
 
 export const dynamic = "force-dynamic";
 
@@ -8,6 +8,7 @@ export async function GET() {
   return NextResponse.json({
     feedback: all,
     sharedBackend: isSharedBackendConfigured(),
+    diag: backendDiag(),
   });
 }
 

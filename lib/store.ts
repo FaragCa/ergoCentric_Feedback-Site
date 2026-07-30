@@ -156,3 +156,22 @@ export async function saveFeedback(fb: Feedback): Promise<void> {
 export function isSharedBackendConfigured(): boolean {
   return ghEnabled() || getRedis() !== null;
 }
+
+// Temporary, non-secret diagnostic to debug backend wiring on the live site.
+export function backendDiag() {
+  return {
+    tag: "diag1",
+    githubEnabled: ghEnabled(),
+    tokenPresent: !!GH.token,
+    tokenVar: process.env.GITHUB_TOKEN
+      ? "GITHUB_TOKEN"
+      : process.env.GH_TOKEN
+      ? "GH_TOKEN"
+      : process.env.FEEDBACK_GH_TOKEN
+      ? "FEEDBACK_GH_TOKEN"
+      : null,
+    repo: GH.repo,
+    branch: GH.branch,
+    redisPresent: getRedis() !== null,
+  };
+}
